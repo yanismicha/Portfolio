@@ -10,8 +10,8 @@ website:
         text: Accueil
       - href: projects.qmd
         text: Projets
-      - href: about.qmd
-        text: À propos
+      # - href: about.qmd
+      #   text: À propos
     right:
       - icon: github
         href: https://github.com/yanismicha
