@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Portfolio – Statisticien"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: projects.qmd
+        text: Projets
+      - href: about.qmd
+        text: À propos
+    right:
+      - icon: github
+        href: https://github.com/yanismicha
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yanis-micha-90b0872b5/
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/custom.css
+    toc: true
+    lang: fr

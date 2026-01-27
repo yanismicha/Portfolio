@@ -1,0 +1,6 @@
+[1,"==> quarto preview Portfolio.qmd --to default --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: Portfolio.html\n  standalone: true\n  title-prefix: Portfolio – Statisticien\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - assets/css/custom.css\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: fr\n  theme: cosmo\n  title: Projets\n  \n"]
+[1,"WARN: Unable to resolve link target: projects.qmd\nWARN: Unable to resolve link target: about.qmd\nWARN: Unable to resolve link target: projects\\stage-m1.qmd\nWARN: Unable to resolve link target: projects\\stage-m2.qmd\n"]
+[1,"WARN: Unable to resolve link target: projects\\projets-perso.qmd\n"]
+[1,"Output created: docs\\Portfolio.html\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:7674/Portfolio.html\n"]
