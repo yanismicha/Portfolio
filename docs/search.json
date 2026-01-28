@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle\nAutomatisation et tableau de bord décisionnel voir le projet\n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
+  },
+  {
+    "objectID": "Projects.html#projets-académiques-professionnels",
+    "href": "Projects.html#projets-académiques-professionnels",
+    "title": "Projets",
+    "section": "",
+    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle\nAutomatisation et tableau de bord décisionnel voir le projet\n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accueil",
+    "section": "",
+    "text": "Je suis statisticien diplômé Bac +5, spécialisé en analyse de données, développement d’outils d’aide à la décision et applications interactives (Shiny).\nCe portfolio présente une sélection de projets académiques et professionnels, mettant en avant des problématiques réelles, des méthodologies statistiques rigoureuses et des outils opérationnels.\n👉 Retrouvez l’ensemble de mes projets dans l’onglet Projets."
+  },
+  {
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "Accueil",
+    "section": "",
+    "text": "Je suis statisticien diplômé Bac +5, spécialisé en analyse de données, développement d’outils d’aide à la décision et applications interactives (Shiny).\nCe portfolio présente une sélection de projets académiques et professionnels, mettant en avant des problématiques réelles, des méthodologies statistiques rigoureuses et des outils opérationnels.\n👉 Retrouvez l’ensemble de mes projets dans l’onglet Projets."
+  },
+  {
+    "objectID": "projects/cyclamed.html",
+    "href": "projects/cyclamed.html",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "",
+    "text": "Cyclamed réalise chaque année une caractérisation des déchets médicaux. L’objectif était de faciliter l’analyse, automatiser les traitements statistiques et améliorer la prise de décision."
+  },
+  {
+    "objectID": "projects/cyclamed.html#contexte",
+    "href": "projects/cyclamed.html#contexte",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "",
+    "text": "Cyclamed réalise chaque année une caractérisation des déchets médicaux. L’objectif était de faciliter l’analyse, automatiser les traitements statistiques et améliorer la prise de décision."
+  },
+  {
+    "objectID": "projects/cyclamed.html#objectifs",
+    "href": "projects/cyclamed.html#objectifs",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "🧠 Objectifs",
+    "text": "🧠 Objectifs\n\nAutomatiser les analyses statistiques récurrentes\nRéduire le temps de traitement annuel\nProposer un outil interactif pour les équipes métier"
+  },
+  {
+    "objectID": "projects/cyclamed.html#méthodologie-statistique",
+    "href": "projects/cyclamed.html#méthodologie-statistique",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "📊 Méthodologie statistique",
+    "text": "📊 Méthodologie statistique\n\nAnalyses descriptives et comparatives\nContrôles de cohérence des données\nIndicateurs clés de performance"
+  },
+  {
+    "objectID": "projects/cyclamed.html#outils-et-technologies",
+    "href": "projects/cyclamed.html#outils-et-technologies",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "🛠️ Outils et technologies",
+    "text": "🛠️ Outils et technologies\n\nR\nShiny\ntidyverse\nggplot2"
+  },
+  {
+    "objectID": "projects/cyclamed.html#résultats",
+    "href": "projects/cyclamed.html#résultats",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "📈 Résultats",
+    "text": "📈 Résultats\n\nGain de temps significatif sur la caractérisation annuelle\nMeilleure lisibilité des résultats\nAutonomie accrue des utilisateurs"
+  },
+  {
+    "objectID": "projects/cyclamed.html#liens",
+    "href": "projects/cyclamed.html#liens",
+    "title": "Projet Cyclamed – Application Shiny",
+    "section": "🔗 Liens",
+    "text": "🔗 Liens\n\nApplication Shiny : (si public)\nCode source : (GitHub si possible)"
+  }
+]

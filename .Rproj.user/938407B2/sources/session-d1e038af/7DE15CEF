@@ -3,7 +3,7 @@
     "path": "~/yanis/autre/Portfolio/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "919210050",
+    "hash": "2607211493",
     "contents": "",
     "dirty": false,
     "created": 1769525731549.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "10,8",
+        "cursorPosition": "10,26",
         "scrollLine": "6"
     },
     "folds": "",
-    "lastKnownWriteTime": 1769528619,
+    "lastKnownWriteTime": 1769528845,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1769528619582,
+    "last_content_update": 1769528845620,
     "read_only": false,
     "read_only_alternatives": []
 }
