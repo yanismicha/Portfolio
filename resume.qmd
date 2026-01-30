@@ -2,7 +2,7 @@
 title: "Résumé"
 ---
 
-vous pouvez retrouver mon curriculum vitae ![ici](CV_Yanis_Micha.pdf)
+vous pouvez retrouver mon curriculum vitae [ici](CV_Yanis_Micha.pdf)
 
 ## Résumé professionnel
 
@@ -57,7 +57,7 @@ Aptitude à transformer les données brutes en **informations exploitables**, à
 ## Éducation
 
 | Diplôme                                                                         | Année       | Établissement (localisation)        | Institution |
-|--------------|--------------|-------------------------------|--------------|
+|---------------|---------------|---------------------------|---------------|
 | Master Statistique et Science des Données (SSD)                                 | 2023 - 2025 | Université Grenoble Alpes, Grenoble | IM2Ag       |
 | Licence Mathématiques,Informatique Appliquées aux Sciences Humaines et Sociales | 2020 - 2023 | Université Grenoble Alpes, Grenoble | SHS         |
 
