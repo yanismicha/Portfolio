@@ -1,0 +1,104 @@
+/* css styles */
+
+/* liens */
+
+/* Couleur de la barre de menu */
+.navbar {
+  background-color: #2c3e50 !important;
+}
+
+.navbar-title {
+  color: white !important;
+}
+
+.navbar .bi,
+.navbar i {
+  color: white !important;
+}
+
+
+/* Conteneur menu */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Élément de menu */
+.navbar-nav .nav-item {
+  position: relative;
+  height: 50px;
+}
+
+/* Liens */
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 5px;
+  transition: color 0.4s ease, font-weight 0.4s ease;
+}
+
+/* SVG underline animé (VERT) */
+.navbar-nav .nav-item:hover {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjM5MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDM5MCA1MCI+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDA2OTNlIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTAsNDcuNWMwLDAsOTcuNSwwLDEzMCwwYzEzLjc1LDAsMjguNzQtMzguNzgsNDYuMTctMTkuNDFDMTkyLjY3LDQ2LjUsMjQzLjYsNDcuNSwyNjAsNDcuNWMzMS44MiwwLDEzMCwwLDEzMCwwIi8+Cjwvc3ZnPg==");
+  animation: nav-line 2.2s ease-out;
+}
+
+/* Hover texte */
+.navbar-nav .nav-item:hover .nav-link {
+  color: #0a8a57;
+  font-weight: 600;
+}
+
+/* État actif = page courante */
+.navbar-nav .nav-link.active {
+  color: #00693e !important;
+  font-weight: 700;
+}
+
+/* Ligne visible aussi sur l’élément actif */
+.navbar-nav .nav-item:has(.nav-link.active) {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjM5MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDM5MCA1MCI+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDA2OTNlIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTAsNDcuNWMwLDAsOTcuNSwwLDEzMCwwYzEzLjc1LDAsMjguNzQtMzguNzgsNDYuMTctMTkuNDFDMTkyLjY3LDQ2LjUsMjQzLjYsNDcuNSwyNjAsNDcuNWMzMS44MiwwLDEzMCwwLDEzMCwwIi8+Cjwvc3ZnPg==");
+}
+
+/* Animation */
+@keyframes nav-line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+/* Couleur d'arrière-plan des pages */
+body {
+  background-color: #e2e8e0 !important;
+}
+
+/* Couleur des titres H1 */
+h1 {
+  color: #00693e !important;
+}
+
+h2 {
+  color: #1d9095 !important;
+}
+h3 {
+  color: #e89f00 !important;
+}
+
+/* Cartes des projets (listing Quarto) */
+.quarto-post {
+    background-color: #f4f7f3;
+    border-radius: 17px;
+    box-shadow: 6px 4px 20px rgba(44, 62, 80, 0.12);
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Effet de profondeur au survol */
+.quarto-post:hover {
+    transform: translateY(-6px);
+    box-shadow: 10px 8px 28px rgba(44, 62, 80, 0.18);
+}
+
