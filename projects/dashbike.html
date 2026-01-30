@@ -186,6 +186,7 @@ ul.task-list li input[type="checkbox"] {
 Le projet s’appuie sur des données publiques et vise à exploiter des données ouvertes à fort enjeu sociétal : les accidents de vélo en France. Les données proviennent de data.gouv.fr et sont issues du Fichier BAAC (Bulletin d’Analyse des Accidents Corporels), administré par l’Observatoire national interministériel de la sécurité routière (ONISR).<br>
 Le jeu de données recense, pour la période 2005–2024, l’ensemble des accidents corporels de la circulation survenus sur une voie ouverte à la circulation publique, impliquant au moins un véhicule,ayant entraîné au moins une victime nécessitant des soins. Dans le cadre de ce projet, seules les observations impliquant au moins une personne à vélo ont été retenues.</p>
 <p>Le tableau de bord est entièrement téléchargeable et modifiable depuis mon dépôt GitHub, dans une logique de transparence, de reproductibilité et de diffusion des analyses.</p>
+<hr>
 </section>
 <section id="objectifs" class="level2">
 <h2 class="anchored" data-anchor-id="objectifs">Objectifs</h2>
@@ -200,6 +201,7 @@ Le jeu de données recense, pour la période 2005–2024, l’ensemble des accid
 <li>régionale</li>
 <li>départementale</li>
 </ul>
+<hr>
 </section>
 <section id="besoins-utilisateurs" class="level2">
 <h2 class="anchored" data-anchor-id="besoins-utilisateurs">Besoins utilisateurs</h2>
@@ -216,6 +218,7 @@ Le jeu de données recense, pour la période 2005–2024, l’ensemble des accid
 <li><p>la possibilité de filtrer et comparer les données dans le temps et dans l’espace</p></li>
 <li><p>une interface intuitive permettant une prise en main rapide, sans expertise technique préalable.</p></li>
 </ul>
+<hr>
 </section>
 <section id="choix-techniques-et-architecture" class="level2">
 <h2 class="anchored" data-anchor-id="choix-techniques-et-architecture">Choix techniques et architecture</h2>
@@ -225,6 +228,7 @@ Le jeu de données recense, pour la période 2005–2024, l’ensemble des accid
 <li><p><code>Plotly</code> : bibliothèque de visualisation pour des graphiques interactifs et dynamiques.</p></li>
 <li><p><code>Pandas</code> / <code>NumPy</code> : manipulation, nettoyage et structuration des données.</p></li>
 </ul>
+<hr>
 </section>
 <section id="compétences-développées" class="level2">
 <h2 class="anchored" data-anchor-id="compétences-développées">Compétences développées</h2>
@@ -243,6 +247,7 @@ Le jeu de données recense, pour la période 2005–2024, l’ensemble des accid
 </li>
 <li><strong>Orientation utilisateur et impact</strong> : conception pensée pour sensibiliser, aider à la prise de décision et communiquer les résultats à des publics variés (décideurs, chercheurs, associations).</li>
 </ul>
+<hr>
 </section>
 <section id="aperçu-du-tableau-de-bord" class="level2">
 <h2 class="anchored" data-anchor-id="aperçu-du-tableau-de-bord">Aperçu du tableau de bord</h2>
@@ -251,20 +256,32 @@ Le jeu de données recense, pour la période 2005–2024, l’ensemble des accid
 <h3 class="anchored" data-anchor-id="analyse-temporelle-des-accidents">Analyse temporelle des accidents</h3>
 <p>Cette page est dédiée à l’étude des évolutions temporelles des accidents de vélo.<br>
 Elle permet d’analyser les tendances de long terme, la saisonnalité et les variations interannuelles, à l’aide de techniques de lissage et de décomposition des séries temporelles.</p>
-<p><a href="dashbike/temp_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="dashbike/temp_page.png" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="dashbike/temp_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="dashbike/temp_page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
 </section>
 <section id="caractéristiques-des-accidents" class="level3">
 <h3 class="anchored" data-anchor-id="caractéristiques-des-accidents">Caractéristiques des accidents</h3>
 <p>Cette vue permet d’explorer les principales caractéristiques des accidents :<br>
 profil des victimes, types de routes, environnement de l’accident, conditions météorologiques, etc.<br>
 Elle offre une lecture descriptive essentielle pour identifier les facteurs associés aux accidents.</p>
-<p><a href="dashbike/carac_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="dashbike/carac_page.png" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="dashbike/carac_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="dashbike/carac_page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
 </section>
 <section id="cartographie-des-accidents-en-france" class="level3">
 <h3 class="anchored" data-anchor-id="cartographie-des-accidents-en-france">Cartographie des accidents en France</h3>
 <p>Cette page propose une visualisation spatiale fine des accidents de vélo à l’échelle nationale.<br>
 Chaque accident est représenté par un point géolocalisé, permettant d’identifier les zones à forte concentration et les dynamiques territoriales.</p>
-<p><a href="dashbike/map_france_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="dashbike/map_france_page.png" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="dashbike/map_france_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="dashbike/map_france_page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
 </section>
 <section id="synthèse-territoriale-par-régions-et-départements" class="level3">
 <h3 class="anchored" data-anchor-id="synthèse-territoriale-par-régions-et-départements">Synthèse territoriale par régions et départements</h3>
@@ -275,7 +292,11 @@ Elle permet de comparer les territoires à l’aide d’indicateurs synthétique
 <li>taux d’accidents pour 1 000 habitants</li>
 <li>ratios entre accidents et infrastructures cyclables</li>
 </ul>
-<p><a href="dashbike/map_dep_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="dashbike/map_dep_page.png" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="dashbike/map_dep_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="dashbike/map_dep_page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
 <p>Lien pour accès à une version du tableau de bord <a href="https://dashbike.onrender.com/">ici</a></p>
 
 

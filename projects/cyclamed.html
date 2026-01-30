@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -237,23 +240,48 @@ Utilisation de <strong>HTML</strong>, <strong>SCSS</strong> et <strong>JavaScrip
 Voici les principales fonctionnalités à travers des captures d’écran :</p>
 <section id="accueil" class="level3">
 <h3 class="anchored" data-anchor-id="accueil">1. Accueil</h3>
-<p><img src="cyclamed/home_page.jpeg" class="img-fluid"> <em>Page d’accueil avec navigation principale vers les différentes sections de l’application.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cyclamed/home_page.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="cyclamed/home_page.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
+<p><em>Page d’accueil avec navigation principale vers les différentes sections de l’application.</em></p>
 </section>
 <section id="sélection-des-sites" class="level3">
 <h3 class="anchored" data-anchor-id="sélection-des-sites">2. Sélection des sites</h3>
-<p><img src="cyclamed/selection.jpeg" class="img-fluid"> <em>Sélection interactive des sites à caractériser, avec possibilité de mettre à jour la liste et de relancer la sélection aléatoire. Un historique des séléctions est également disponible.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cyclamed/selection.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="cyclamed/selection.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
+<p><em>Sélection interactive des sites à caractériser, avec possibilité de mettre à jour la liste et de relancer la sélection aléatoire. Un historique des séléctions est également disponible.</em></p>
 </section>
 <section id="données" class="level3">
 <h3 class="anchored" data-anchor-id="données">3. Données</h3>
-<p><img src="cyclamed/data_page.jpeg" class="img-fluid"> <em>Tableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cyclamed/data_page.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="cyclamed/data_page.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
+<p><em>Tableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.</em></p>
 </section>
 <section id="résumé-des-données" class="level3">
 <h3 class="anchored" data-anchor-id="résumé-des-données">4. Résumé des données</h3>
-<p><img src="cyclamed/summary_page.jpeg" class="img-fluid"> <em>Vue synthétique des informations clés : tonnages, répartition par site et par classe de grossiste-répartiteur.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cyclamed/summary_page.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="cyclamed/summary_page.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
+<p><em>Vue synthétique des informations clés : tonnages, répartition par site et par classe de grossiste-répartiteur.</em></p>
 </section>
 <section id="visualisation" class="level3">
 <h3 class="anchored" data-anchor-id="visualisation">5. Visualisation</h3>
-<p><img src="cyclamed/visu_page.jpeg" class="img-fluid"> <em>Graphiques interactifs permettant l’exploration visuelle et l’analyse des tendances et indicateurs clés.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cyclamed/visu_page.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="cyclamed/visu_page.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></a></p>
+</figure>
+</div>
+<p><em>Graphiques interactifs permettant l’exploration visuelle et l’analyse des tendances et indicateurs clés.</em></p>
 <p>Cette interface interactive permet à Cyclamed de <strong>suivre, analyser et prendre des décisions rapidement</strong>, tout en automatisant la séléction de sites et en garantissant la <strong>fiabilité de la caractérisation annuelle</strong>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -694,6 +722,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
