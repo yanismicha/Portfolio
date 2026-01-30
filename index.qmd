@@ -1,14 +1,45 @@
 ---
-title: "Accueil"
+title: "Yanis Micha"
+about:
+  template: jolla
+  image: Yanis.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/yanismicha
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/yanis-micha-90b0872b5/
 ---
 
-## 👋 Bienvenue
+## À propos de moi
 
-Je suis **statisticien diplômé Bac +5**, spécialisé en **analyse de données**, 
-**développement d’outils d’aide à la décision** et **applications interactives (Shiny)**.
+Diplômé d’un **Master Statistique et Science des Données (SSD)**, je suis statisticien avec un fort intérêt pour l’**analyse de données appliquée** et le **développement d’outils d’aide à la décision**.
 
-Ce portfolio présente une sélection de projets académiques et professionnels, 
-mettant en avant des problématiques **réelles**, des **méthodologies statistiques rigoureuses** 
-et des **outils opérationnels**.
+J’utilise principalement **R** et **Python** pour explorer, analyser et modéliser les données, ainsi que pour concevoir des **applications interactives** et des **tableaux de bord** destinés à des utilisateurs métiers.
 
-👉 Retrouvez l’ensemble de mes projets dans l’onglet **Projets**.
+Mon objectif est de **donner du sens aux données**, de les rendre **compréhensibles et exploitables**, et de transformer des résultats statistiques en **informations utiles pour la prise de décision**.
+  
+
+## Ce que je fais
+
+- **Analyse et visualisation de données**  
+  Exploration, nettoyage et analyse de données, avec la création de visualisations claires et interactives sous **R** et **Python** pour faciliter la compréhension des résultats.
+
+- **Interrogation et exploitation de bases de données (SQL)**  
+  Extraction, jointure et transformation de données issues de bases relationnelles à l’aide de **requêtes SQL**, en lien avec des problématiques d’analyse et de reporting.
+
+- **Reporting reproductible et automatisé**  
+  Conception de rapports dynamiques et reproductibles (Quarto, R Markdown), permettant de fiabiliser les analyses.
+
+- **Développement d’outils d’aide à la décision**  
+  Création d’applications interactives (notamment avec **Shiny**) et de tableaux de bord (Power BI, Quarto) pour rendre les analyses accessibles aux équipes métiers.
+
+- **Modélisation statistique et analyse exploratoire**  
+  Mise en œuvre de méthodes statistiques adaptées aux problématiques métier : analyses descriptives, comparatives et modèles explicatifs.
+
+- **Structuration et qualité des données**  
+  Mise en place de contrôles de cohérence, gestion des données manquantes et préparation des données pour garantir des analyses fiables.
+
+- **Communication des résultats**  
+  Traduction de résultats statistiques en messages intelligibles, adaptés à des publics techniques ou non techniques.

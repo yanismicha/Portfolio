@@ -1,0 +1,74 @@
+---
+title: "Expédition 5300 - Analyse des données physiologiques"
+date: 2024-07-01
+image: stage-m1/logo-hp2.svg
+
+categories: [Recherche scientifique,Programmation R,Analyse de données]
+lightbox: true
+---
+
+## Contexte
+
+Dans le cadre de l’**Expédition 5300** (2017-2022), 250 participants volontaires, tous natifs de l’Altiplano et de sexe masculin, ont été inclus dans différents protocoles de recherche.  
+Les données démographiques et physiologiques (simples et complexes) ont été recueillies au sein de laboratoires éphémères installés lors de chaque expédition.  
+
+Ces informations ont été compilées dans une **base de données anonymisée**, afin de conduire des analyses statistiques visant à identifier des modèles explicatifs des **symptômes et signes cliniques** liés au CMS et à l’hypoxémie.
+
+
+
+## Objectifs
+
+- Compiler les variables démographiques et physiologiques dans une **base de données unique et propre**.  
+- Identifier les **symptômes ou signes cliniques** associés à l’augmentation de [Hb] ou à d’autres variables physiologiques liées aux globules rouges, ainsi que ceux associés à l’hypoxémie (SpO2).  
+- Identifier les symptômes ou signes **non associés** à l’[Hb] ou aux variables physiologiques liées aux globules rouges.  
+- Réaliser une analyse prenant en compte le **score clinique CMS**, somme totale des points attribués aux signes et symptômes, pour intégrer la sévérité dans les analyses.  
+- Participer à la production de résultats pouvant servir **à la révision des critères diagnostiques du CMS** lors du congrès Hypoxia 2025.  
+- Analyse d’une **seconde base de données** recueillie lors de consultations médicales à La Rinconada (3800 m, Pérou), afin d’étudier les caractéristiques des céphalées chez les participants et leurs facteurs associés (analyse univariée et multivariée).
+
+
+## Méthodologie
+
+Travail réalisé entièrement sous **R / Quarto**, chaque partie chapitrée dans des fichiers `.qmd` pour permettre un rendu HTML et la création d’un **book Quarto** regroupant l'ensemble du travail et accesible facilement par les chercheurs.    
+- Lecture d’**articles scientifiques** pour contextualiser la maladie et les travaux précédents  
+- **Analyses univariées et bivariées** : tests adaptés (Shapiro-Wilk, corrélation, Chi2, ANOVA)  
+- **Modélisation multivariée** : régressions logistiques pour expliquer la présence/absence des symptômes  
+  - Sélection des variables avec `stepAIC` (forward)  
+  - Vérification de la multicolinéarité via **VIF**  
+  - Évaluation des modèles avec **AIC**, **AUC ROC**, test de Hosmer-Lemeshow  
+- Gestion des **données partielles** : modèles construits sur ~100 patients, ajout progressif de variables physiologiques complexes (Hb_mass/kg, BV_kg, PV_kg, aggreg_M0, visco_hct_natif_up_6.0)  
+- Visualisations pour explorer le **rapport variables exploitées / lignes disponibles**  
+ 
+
+
+
+## Outils utilisés
+
+- **R** et **Quarto**  
+- Packages : `MASS`, `stats`, `ggplot2`, `plotly`  
+
+
+
+## Résultats
+
+- Identification de facteurs **associés ou non associés** aux symptômes  
+- Création de **modèles logistiques robustes**  
+- Visualisation interactive des données et communication des résultats
+- Les analyses réalisées lors de ce projet ont été intégrées dans une étude publiée [ici](https://journals.sagepub.com/doi/10.1177/10806032251376313?utm_source=selligent&utm_medium=email&utm_campaign=joa_con_authc_multi_publishedauthorcarejourney&utm_content=23u0062_a&utm_term=&m_i=ql0qYgvCu3sKiH9euGvsA_1rf_EdR34GZROTThCEziP9OHPv8E6foFY0G0dbVP2_isT2GjdQbFUkoP7YkjZrg8VCXoL1JmV26EdiqY&nbd=60047203&nbd_source=slgnt&M_BT=1802842571366664)
+- Développement d’une application Shiny (voir projet [ExpeditionApp](ExpeditionApp.qmd)) permettant aux chercheurs de retrouver l’ensemble des analyses et de visualiser les données
+
+
+## Compétences développées
+
+- **Analyse statistique avancée** : régression logistique, modèles multivariés, sélection de variables  
+- **Data visualisation** : ggplot2, plotly, interprétation interactive  
+- **Traitement et gestion de données** : structuration, nettoyage, anonymisation  
+- **Reproductibilité et science des données** : utilisation de Quarto pour rapport et présentation
+
+
+::: {.callout-note}
+**Note de confidentialité**
+
+Les données utilisées dans le cadre de ce projet ainsi que les chiffres exacts sont confidentiels.  
+La description se concentre volontairement sur les **méthodes**, les **outils** et les **compétences mobilisées**, plutôt que sur les résultats chiffrés.
+:::
+

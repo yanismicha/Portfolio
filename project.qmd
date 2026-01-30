@@ -1,0 +1,32 @@
+---
+title: "Projets"
+---
+
+## 🎓 Projets académiques & professionnels
+
+### 📌 Stage M1 – Étude statistique & application Shiny
+
+-   Analyse statistique complète
+
+-   Restitution via application Shiny interactive
+
+------------------------------------------------------------------------
+
+### 📌 Stage M2 – Analyse et optimisation des temps de cycle
+
+-   Outil d’analyse des processus
+-   Approche statistique et optimisation
+
+------------------------------------------------------------------------
+
+### 📌 Projet Cyclamed – Application Shiny
+
+-   Optimisation de la caractérisation annuelle
+<!-- -   Automatisation et tableau de bord décisionnel [voir le projet](projects/cyclamed.qmd) -->
+
+------------------------------------------------------------------------
+
+### 📌 Projets personnels – Applications web & dashboards
+
+-   Récupération de données individuelles
+-   Analyse post-annuelle et visualisation

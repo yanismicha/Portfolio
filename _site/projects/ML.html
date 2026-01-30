@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-12-18">
+
+<title>Analyse prédictive du succès des expeditions himalayennes – Portfolio-Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+
+<script src="../site_libs/datatables-binding-0.33/datatables.js"></script>
+
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+
+<script src="../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+
+<link href="../site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+
+<script src="../site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+
+<link href="../site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+
+<script src="../site_libs/selectize-0.12.0/selectize.min.js"></script>
+
+<link href="../site_libs/dt-plugin-searchhighlight-1.13.6/source.css" rel="stylesheet">
+
+<script src="../site_libs/dt-plugin-searchhighlight-1.13.6/jquery.highlight.js"></script>
+
+<script src="../site_libs/dt-plugin-searchhighlight-1.13.6/source.min.js"></script>
+
+<link href="../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Portfolio-Data</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../project.html"> 
+<span class="menu-text">Projets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resume.html"> 
+<span class="menu-text">Résumé</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../workshop.html"> 
+<span class="menu-text">Workshop</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/yanismicha"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">Github</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/yanis-micha-90b0872b5/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text">Linkedin</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#contexte" id="toc-contexte" class="nav-link active" data-scroll-target="#contexte">Contexte</a></li>
+  <li><a href="#objectifs" id="toc-objectifs" class="nav-link" data-scroll-target="#objectifs">Objectifs</a></li>
+  <li><a href="#méthodologie" id="toc-méthodologie" class="nav-link" data-scroll-target="#méthodologie">Méthodologie</a></li>
+  <li><a href="#outils-utilisés" id="toc-outils-utilisés" class="nav-link" data-scroll-target="#outils-utilisés">Outils utilisés</a></li>
+  <li><a href="#compétences-développées" id="toc-compétences-développées" class="nav-link" data-scroll-target="#compétences-développées">Compétences développées</a></li>
+  <li><a href="#aperçu-de-lapplication" id="toc-aperçu-de-lapplication" class="nav-link" data-scroll-target="#aperçu-de-lapplication">Aperçu de l’application</a>
+  <ul class="collapse">
+  <li><a href="#données" id="toc-données" class="nav-link" data-scroll-target="#données">1. Données</a></li>
+  <li><a href="#résumé-des-données" id="toc-résumé-des-données" class="nav-link" data-scroll-target="#résumé-des-données">2. Résumé des données</a></li>
+  <li><a href="#visualisation" id="toc-visualisation" class="nav-link" data-scroll-target="#visualisation">3. Visualisation</a></li>
+  <li><a href="#prediction" id="toc-prediction" class="nav-link" data-scroll-target="#prediction">4. Prediction</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analyse prédictive du succès des expeditions himalayennes</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Programmation Python</div>
+    <div class="quarto-category">Programmation Julia</div>
+    <div class="quarto-category">Analyse de données</div>
+    <div class="quarto-category">Shiny</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 18, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="contexte" class="level2">
+<h2 class="anchored" data-anchor-id="contexte">Contexte</h2>
+<p>Ce projet a été réalisé dans le cadre de l’UE <em>Logiciels spécialisés</em> du Master, en binôme, avec pour objectif de mettre oeuvre l’ensemble des étapes d’un projet de science des données, depuis la recherche du jeu de données jusqu’à la réalisation d’une interface interactive intégrant des méthodes d’apprentissage automatique.</p>
+<p>Nous avons choisi de travailler sur un jeu de données recensant des <strong>expéditions himalayennes</strong>, contenant des informations détaillées sur les grimpeurs, les expéditions et leurs issues. Parmi les variables disponibles, la variable <code>success</code>, indiquant le succès ou l’échec d’une expédition, s’est révélée particulièrement pertinente pour aborder des problématiques de <strong>prédiction</strong> en apprentissage supervisé.</p>
+<p>Le jeu de données, fourni au format CSV, comprend <strong>76 519 individus et 21 variables</strong>. Cependant, celui-ci s’est avéré peu exploitable en l’état : données manquantes, incohérences, variables hétérogènes et absence de structuration adaptée à l’analyse statistique et au machine learning. Une part importante du projet a donc consisté en un travail approfondi de <strong>nettoyage et de préparation des données</strong>.</p>
+<p>Ce projet avait également une dimension pédagogique forte : il s’agissait d’une <strong>initiation au langage Julia</strong>, tout en comparant ses performances et sa prise en main à celles d’outils plus classiques comme Python, dans un contexte de machine learning appliqué.</p>
+</section>
+<section id="objectifs" class="level2">
+<h2 class="anchored" data-anchor-id="objectifs">Objectifs</h2>
+<p>Les objectifs du projet étaient multiples :</p>
+<ul>
+<li>Réaliser un <strong>travail de recherche exploratoire</strong> afin de comprendre le contexte du jeu de données et les problématiques associées aux expéditions himalayennes.</li>
+<li>Mettre oeuvre une <strong>analyse exploratoire et un traitement approfondi des données</strong>, afin de rendre le jeu de données exploitable pour l’analyse statistique et l’apprentissage supervisé.</li>
+<li>Mettre en place des <strong>modèles d’apprentissage automatique supervisé</strong> visant à prédire le succès ou l’échec d’une expédition.</li>
+<li>Comparer différentes approches et écosystèmes logiciels, en particulier <strong>Python</strong> et <strong>Julia</strong>, pour des tâches de machine learning.</li>
+<li>Découvrir et manipuler l’interopérabilité entre plusieurs langages au sein d’une même application: ici faire fonctionner du code <strong>python</strong> et <strong>julia</strong> au sein d’une interface <strong>shiny R</strong>.</li>
+<li>Concevoir et développer une <strong>interface interactive</strong> permettant:</li>
+</ul>
+<ol type="1">
+<li>l’intégration des visualisations, des analyses et des résultats des modèles.</li>
+<li>la comparaison des différents packages de visualisations au sein du language <strong>R</strong> (<code>base</code>,<code>ggplot2</code>,<code>plotly</code>).</li>
+</ol>
+</section>
+<section id="méthodologie" class="level2">
+<h2 class="anchored" data-anchor-id="méthodologie">Méthodologie</h2>
+<ul>
+<li><p><strong>Recherche et compréhension du jeu de données</strong> Analyse du contexte des expéditions himalayennes et étude de la signification des variables afin d’évaluer leur pertinence pour l’analyse statistique et la prédiction du succès d’une expédition.</p></li>
+<li><p><strong>Gestion des données manquantes</strong></p>
+<ul>
+<li>Suppression des valeurs manquantes pour les variables secondaires ou peu informatives.</li>
+<li>Imputation des valeurs manquantes pour les variables considérées comme <strong>primordiales pour la prédiction</strong>, afin de conserver un maximum d’individus exploitables.</li>
+</ul></li>
+<li><p><strong>Prétraitement et harmonisation des données</strong></p>
+<ul>
+<li>Agrégation de variables catégorielles.</li>
+<li>Transformation de variables quantitatives.</li>
+<li>Création de nouvelles variables pertinentes (par exemple : nombre de personnes dans la cordée d’un grimpeur).</li>
+<li>Harmonisation des formats et des typologies de données pour garantir leur cohérence.</li>
+</ul></li>
+<li><p><strong>Analyse exploratoire des données (EDA)</strong></p>
+<ul>
+<li>Tests statistiques et visualisations croisant la variable cible <em>success</em> avec les variables explicatives.</li>
+<li>Objectif : réaliser une <strong>première sélection des variables pertinentes</strong> en vue de la modélisation prédictive.</li>
+</ul></li>
+<li><p><strong>Formatage des données pour le machine learning</strong></p>
+<ul>
+<li>Encodage des variables catégorielles (One-Hot Encoding).</li>
+<li>Normalisation et mise à l’échelle des variables quantitatives.</li>
+<li>Préparation de jeux de données compatibles avec les modèles supervisés.</li>
+</ul></li>
+<li><p><strong>Modélisation prédictive</strong></p>
+<ul>
+<li>Utilisation de modèles volontairement simples afin de faciliter la <strong>comparaison entre Julia et Python</strong> :
+<ul>
+<li>K-Nearest Neighbors (KNN)</li>
+<li>Random Forest</li>
+<li>Support Vector Machines (SVM)</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Conception de l’interface interactive</strong></p>
+<ul>
+<li>Intégration des modèles d’apprentissage automatique au sein d’une application <strong>Shiny</strong>.</li>
+<li>Objectif principal : permettre à un utilisateur non initié au machine learning de <strong>tester de manière ludique</strong> la prédiction du succès ou de l’échec d’une expédition himalayenne en fonction de différentes conditions (profil du grimpeur, caractéristiques de l’expédition, etc.).</li>
+</ul></li>
+<li><p><strong>Visualisation des données</strong></p>
+<ul>
+<li>Implémentation de graphiques et visualisations avec comparaisons de trois packages complémentaires :
+<ul>
+<li>graphiques de <code>base</code> R</li>
+<li><code>ggplot2</code></li>
+<li><code>plotly</code> pour des visualisations interactives</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="outils-utilisés" class="level2">
+<h2 class="anchored" data-anchor-id="outils-utilisés">Outils utilisés</h2>
+<ul>
+<li><strong>Julia</strong>
+<ul>
+<li>Prétraitement des données (nettoyage, transformation, sélection de variables)</li>
+<li>Analyse exploratoire des données</li>
+<li>Apprentissage automatique avec <code>MLJ</code></li>
+</ul></li>
+<li><strong>Python</strong>
+<ul>
+<li>Apprentissage automatique avec <code>scikit-learn</code></li>
+<li>Comparaison des performances et des méthodologies avec Julia</li>
+</ul></li>
+<li><strong>R / Shiny</strong>
+<ul>
+<li>Développement de l’interface interactive</li>
+<li>Visualisation des données et des résultats</li>
+<li>Intégration des traitements et modèles issus de Julia et Python via des packages R dédiés</li>
+</ul></li>
+</ul>
+</section>
+<section id="compétences-développées" class="level2">
+<h2 class="anchored" data-anchor-id="compétences-développées">Compétences développées</h2>
+<ul>
+<li><p><strong>Prétraitement et nettoyage de données complexes</strong> : gestion d’un jeu de données volumineux et hétérogène, traitement des valeurs manquantes, harmonisation des formats et création de variables pertinentes pour l’analyse et la prédiction.</p></li>
+<li><p><strong>Analyse exploratoire des données</strong> : exploration statistique et graphique des relations entre la variable cible (<code>success</code>) et les variables explicatives afin d’identifier les facteurs les plus influents.</p></li>
+<li><p><strong>Machine Learning supervisé</strong> : mise en oeuvre et comparaison de modèles prédictifs (KNN, Random Forest, SVM) dans une logique pédagogique et comparative entre plusieurs langages.</p></li>
+<li><p><strong>Approche multi-langages en data science</strong> : utilisation conjointe de <strong>Julia</strong>, <strong>Python</strong> (scikit-learn) et <strong>R</strong>, et intégration de ces environnements au sein d’un même projet analytique.</p></li>
+<li><p><strong>Développement d’applications interactives</strong> : conception d’une application <strong>Shiny</strong> permettant à des utilisateurs non spécialistes de tester des scénarios prédictifs de manière intuitive et ludique.</p></li>
+<li><p><strong>Visualisation de données</strong> : création de visualisations statiques et interactives avec les packages <code>base R</code>, <code>ggplot2</code> et <code>plotly</code>, adaptées à l’exploration et permettant un retour critique sur leurs avantages et leurs inconvénients.</p></li>
+<li><p><strong>Vulgarisation et pédagogie du Machine Learning</strong> : transformation de modèles et concepts complexes en outils accessibles, favorisant la compréhension des mécanismes de prédiction auprès d’un public non initié.</p></li>
+<li><p><strong>Travail collaboratif et gestion de projet</strong> : réalisation d’un projet académique en binôme, depuis la définition de la problématique jusqu’au développement de l’interface et des modèles prédictifs.</p></li>
+</ul>
+<p>Vous pouvez retrouver une partie du jeu de données utilisés ici:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-54d5f65652ae24f1fc43" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-54d5f65652ae24f1fc43">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1951\" data-max=\"2019\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"integer\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"17\" data-max=\"75\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\" disabled=\"\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Annapurna","Everest","Everest","Manaslu","Everest","Cho","Everest","Autres","Everest","Cho","Kangchen","Lhotse","Cho","Everest","Everest","Pumori","Autres","Manaslu","Autres","Cho","Autres","Autres","Everest","Manaslu","Manaslu","Ama Dablam","Annapurna","Ama Dablam","Autres","Kangchen","Baruntse","Baruntse","Cho","Everest","Autres","Everest","Everest","Kangchen","Cho","Autres","Ama Dablam","Manaslu","Everest","Baruntse","Autres","Pumori","Ama Dablam","Cho","Everest","Everest","Everest","Pumori","Everest","Annapurna","Ama Dablam","Everest","Manaslu","Kangchen","Cho","Everest","Everest","Everest","Everest","Kangchen","Autres","Pumori","Dhaulagiri","Autres","Baruntse","Everest","Everest","Everest","Autres","Ama Dablam","Everest","Ama Dablam","Sharphu","Autres","Baruntse","Dhaulagiri","Everest","Everest","Lhotse","Everest","Autres","Everest","Everest","Everest","Autres","Everest","Autres","Baruntse","Autres","Everest","Ama Dablam","Autres","Autres","Autres","Everest","Cho"],[2006,1993,1992,1990,2015,2011,1965,2003,2018,2006,1989,2008,1996,2008,2006,2003,2017,2015,1982,2007,2009,2012,2017,2006,2018,2016,1986,2018,2003,1996,2005,2006,2002,2005,1982,1991,1982,1985,1951,2015,2009,2018,2009,2016,2017,2002,2004,2007,1997,2017,2016,1990,1998,1991,2007,2018,2011,1997,1992,2007,2019,1996,1997,1997,1987,1992,2012,2017,2007,2017,2013,2017,1991,2013,2000,2016,1984,2009,2003,1973,2017,2010,1987,2010,2003,2017,2016,1998,2007,2006,2018,2001,1970,2004,2010,1986,1983,2009,2018,2018],["Autumn","Spring","Spring","Autumn","Spring","Autumn","Spring","Spring","Spring","Spring","Autumn","Spring","Autumn","Spring","Spring","Spring","Autumn","Autumn","Autumn","Spring","Autumn","Spring","Spring","Spring","Spring","Autumn","Spring","Autumn","Spring","Autumn","Autumn","Autumn","Autumn","Spring","Autumn","Spring","Spring","Winter","Autumn","Autumn","Autumn","Autumn","Spring","Autumn","Autumn","Spring","Autumn","Autumn","Spring","Spring","Spring","Autumn","Spring","Autumn","Autumn","Spring","Autumn","Spring","Autumn","Spring","Spring","Spring","Spring","Spring","Autumn","Spring","Autumn","Autumn","Autumn","Spring","Spring","Spring","Winter","Autumn","Spring","Autumn","Spring","Summer","Spring","Autumn","Spring","Spring","Autumn","Spring","Autumn","Spring","Spring","Spring","Autumn","Spring","Autumn","Autumn","Spring","Spring","Autumn","Autumn","Autumn","Autumn","Spring","Autumn"],["M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","F","M","M","M","M","M","M","M","M","F","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","M","F","M","M","M","M","M","M","M","M","M","M","F","M","M","M","M","M","M","M","M","M","M","M","M","M","F","M","M","M","M","M","M","M","M","M"],[35,28,45,30,43,32,25,24,35,33,29,33,27,21,27,33,49,29,26,38,43,62,34,66,26,27,34,29,49,45,60,27,56,36,26,33,36,33,38,65,43,39,27,36,43,33,32,38,34,18,43,31,28,33,27,37,44,48,32,32,45,26,29,34,33,31,25,43,52,17,49,49,22,43,33,29,33,60,30,29,35,31,34,32,28,26,34,36,41,23,75,46,26,48,38,34,42,22,35,51],["Italy","Autres","France","Autres","Nepal","Autres","Nepal","Japan","Nepal","Spain","Nepal","Nepal","Autres","China","Nepal","Switzerland","Czech Republic","Autres","UK","France","UK","Australia","USA","Japan","Switzerland","Nepal","Autres","Nepal","Spain","France","France","Italy","Japan","India","UK","USA","Autres","Poland","UK","UK","UK","Nepal","China","Germany","Czech Republic","UK","Nepal","Italy","Nepal","India","USA","Germany","Belgium","Czechoslovakia","Nepal","Nepal","Autres","Japan","Spain","China","Nepal","Autres","Autres","Autres","Yugoslavia","Germany","Australia","Nepal","France","India","Russia","Autres","S Korea","Nepal","Japan","Nepal","S Korea","Japan","UK","UK","China","China","Poland","Nepal","Nepal","India","Nepal","Japan","Spain","Nepal","Italy","Spain","Japan","Russia","USA","Spain","Austria","Japan","Japan","Autres"],["Climber","Movie/TV_team","Climber","Climber","Autres","Leader","Autres","Climber","Autres","Climber","Autres","Autres","Climber","Climber","Autres","Climber","Climber","Climber","Climber","Climber","Climber","Climber","Climber","Leader","Climber","Autres","Climber","Autres","Climber","Climber","Climber","Leader","Climber","Climber","Climber","Leader","Autres","Climber","Climber","Climber","Climber","Autres","Autres","Climber","Climber","Climber","Autres","Climber","Autres","Climber","Climber","Climber","Leader","Climber","Autres","Autres","Leader","Climber","Leader","Climber","Autres","Climber","Climber","Climber","Climber","Climber","Climber","Autres","Leader","Climber","Leader","Climber","Climber","Autres","Climber","Autres","Climber","Climber","Climber","Climber","Autres","Autres","Climber","Autres","Autres","Leader","Climber","Leader","Leader","Autres","Climber","Climber","Climber","Climber","Leader","Climber","Climber","Climber","Leader","Climber"],["false","false","false","false","true","false","true","false","true","false","true","true","false","false","true","false","false","false","false","false","false","false","false","false","false","true","false","true","false","false","false","false","false","false","false","false","false","false","false","false","false","true","true","false","false","false","true","false","true","false","false","false","false","false","true","true","false","false","false","false","true","false","false","false","false","false","false","true","false","false","false","false","false","true","false","true","false","false","false","false","true","true","false","true","true","false","false","false","false","true","false","false","false","false","false","false","false","false","false","false"],["true","false","false","false","false","false","false","true","true","false","false","true","true","true","true","false","true","true","false","false","false","true","true","false","false","true","false","false","true","true","true","false","false","false","false","false","false","false","false","false","false","true","true","true","false","false","true","true","true","true","true","false","false","false","false","true","true","false","false","true","true","false","false","false","true","false","false","true","true","true","true","true","false","false","true","true","false","false","false","false","true","false","false","true","true","true","true","false","false","true","false","false","false","false","true","false","false","false","false","true"],["false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false"],["false","false","false","false","false","false","false","false","true","false","false","true","false","true","true","false","false","false","false","false","false","false","true","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","true","true","false","false","false","false","false","true","true","true","false","false","false","false","true","true","false","false","true","true","false","false","false","false","false","true","false","false","true","true","true","false","false","true","false","false","false","false","false","true","true","false","true","false","true","true","false","false","true","false","false","false","true","false","false","false","false","false","true"],["false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","true","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","true","false","false","false","false","false","false","true","false","false","false","false","false","true","false"],["false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","false","true","true","false","false","false","false","false","false","false"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>peak_name<\/th>\n      <th>year<\/th>\n      <th>season<\/th>\n      <th>sex<\/th>\n      <th>age<\/th>\n      <th>citizenship<\/th>\n      <th>expedition_role<\/th>\n      <th>hired<\/th>\n      <th>success<\/th>\n      <th>solo<\/th>\n      <th>oxygen_used<\/th>\n      <th>died<\/th>\n      <th>injured<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"language":{"info":"Individus _START_ à _END_ sur un total de _TOTAL_ Individus","lengthMenu":"Afficher _MENU_ individus","search":"Recherche : ","paginate":{"previous":"Précédent","next":"Suivant"}},"pageLength":10,"lengthMenu":[10,50,100],"searchHighlight":true,"columnDefs":[{"targets":8,"render":"function(data, type, row) {\n  return data == 'false' ? '❌' : '✔️';\n}"},{"targets":"_all","className":"dt-center"},{"name":"peak_name","targets":0},{"name":"year","targets":1},{"name":"season","targets":2},{"name":"sex","targets":3},{"name":"age","targets":4},{"name":"citizenship","targets":5},{"name":"expedition_role","targets":6},{"name":"hired","targets":7},{"name":"success","targets":8},{"name":"solo","targets":9},{"name":"oxygen_used","targets":10},{"name":"died","targets":11},{"name":"injured","targets":12}],"order":[],"orderClasses":false,"orderCellsTop":true,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'color':value == \"true\" ? \"darkgreen\" : value == \"false\" ? \"darkred\" : null,'font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif','width':'100%'});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'color':value == \"true\" ? \"darkgreen\" : value == \"false\" ? \"darkred\" : null,'font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif','width':'100%'});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'color':value == \"true\" ? \"darkgreen\" : value == \"false\" ? \"darkred\" : null,'font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif','width':'100%'});\nvar value=data[11]; $(this.api().cell(row, 11).node()).css({'color':value == \"true\" ? \"darkgreen\" : value == \"false\" ? \"darkred\" : null,'font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif','width':'100%'});\nvar value=data[12]; $(this.api().cell(row, 12).node()).css({'color':value == \"true\" ? \"darkgreen\" : value == \"false\" ? \"darkred\" : null,'font-family':'-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif','width':'100%'});\n}"}},"evals":["options.columnDefs.0.render","options.rowCallback"],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="aperçu-de-lapplication" class="level2">
+<h2 class="anchored" data-anchor-id="aperçu-de-lapplication">Aperçu de l’application</h2>
+<section id="données" class="level3">
+<h3 class="anchored" data-anchor-id="données">1. Données</h3>
+<p><a href="ML/data_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="ML/data_page.png" class="img-fluid"></a></p>
+<p><em>Tableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.</em></p>
+</section>
+<section id="résumé-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="résumé-des-données">2. Résumé des données</h3>
+<p><a href="ML/summary_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="ML/summary_page.png" class="img-fluid"></a></p>
+<p><em>Résumé statistiques des informations : estimateurs statistiques pour les variables continues, effectif et fréquence pour les variables catégorielles.</em></p>
+</section>
+<section id="visualisation" class="level3">
+<h3 class="anchored" data-anchor-id="visualisation">3. Visualisation</h3>
+<p><a href="ML/visu_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="ML/visu_page.png" class="img-fluid"></a></p>
+<p><em>Graphiques permettant l’exploration visuelle du jeu de données, mais également de comparer ces derniers en fonction du package de grpahique utilisés</em></p>
+</section>
+<section id="prediction" class="level3">
+<h3 class="anchored" data-anchor-id="prediction">4. Prediction</h3>
+<p><a href="ML/predict_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="ML/predict_page.png" class="img-fluid"></a></p>
+<p><em>Interface interactive de prédiction : l’utilisateur peut saisir ses propres informations et obtenir une estimation de probabilité de succès d’une expédition himalayenne selon les modèles supervisés implémentés.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

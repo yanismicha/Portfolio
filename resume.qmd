@@ -1,0 +1,94 @@
+---
+title: "Résumé"
+---
+
+vous pouvez retrouver mon curriculum vitae ![ici](CV_Yanis_Micha.pdf)
+
+## Résumé professionnel
+
+Professionnel analytique et orienté résultats, diplômé d’un **Master Statistique et Science des Données (SSD)**, expert en analyse de données, visualisation et développement d’outils interactifs.\
+Maîtrise des langages **R** et **Python**, ainsi que des outils pour la construction d’applications Shiny et de dashboards.\
+Aptitude à transformer les données brutes en **informations exploitables**, à automatiser des processus et à **communiquer les résultats efficacement** auprès de différents interlocuteurs.
+
+## Compétences techniques
+
+### Analyse & manipulation de données
+
+-   **R** ★★★★☆ (Tidyverse, dplyr, tidyr, data.table)\
+-   **Python** ★★★★☆ (Pandas, NumPy)\
+-   **SQL** ★★★★☆ (bases relationnelles, requêtes avancées)\
+-   **JMP** ★★★★☆
+
+### Visualisation & reporting
+
+-   **Visualisations** ★★★★☆ (ggplot2, Matplotlib, Seaborn, Plotly, Dash)\
+-   **Power BI** ★★★★☆\
+-   **Markdown / Quarto** ★★★★★\
+-   **LaTeX** ★★★★☆
+
+### Modélisation & apprentissage automatique
+
+-   **Python ML** ★★★★☆ (scikit-learn, TensorFlow, PyTorch)\
+-   **Julia** ★★★★☆\
+-   **R modeling** ★★★★☆ (modèles statistiques et prédictifs)
+
+### Développement & applications interactives
+
+-   **Shiny / {golem} / Dash** ★★★★☆\
+-   **HTML / CSS / SCSS** ★★★☆\
+-   **Java** ★★★★☆\
+-   **Git** ★★★★☆
+
+### Autres langages / paradigmes
+
+-   **Scheme** ★★★★☆\
+-   **Prolog** ★★★☆
+
+### Systèmes d’exploitation
+
+-   **Windows** ★★★★★\
+-   **Linux** ★★★★★
+
+### Applications bureautiques
+
+-   **Traitement de texte** ★★★★★ (Excel, Word)\
+-   **Office** ★★★★☆
+
+## Éducation
+
+| Diplôme                                                                         | Année       | Établissement (localisation)        | Institution |
+|--------------|--------------|-------------------------------|--------------|
+| Master Statistique et Science des Données (SSD)                                 | 2023 - 2025 | Université Grenoble Alpes, Grenoble | IM2Ag       |
+| Licence Mathématiques,Informatique Appliquées aux Sciences Humaines et Sociales | 2020 - 2023 | Université Grenoble Alpes, Grenoble | SHS         |
+
+## Expériences professionnelles
+
+### Stage M2 Statisticien – Soitec
+
+**03/2025 - 09/2025**
+
+-   Développement d’un **outil d’analyse** sous JMP pour **optimiser les temps de cycle** des processus industriels.\
+-   Présentation des **insights et recommandations** aux équipes de direction pour améliorer les performances opérationnelles.
+
+### Stage Statisticien – CHU Grenoble Alpes
+
+**05/2024 - 08/2024**
+
+-   Analyse des **variables physiologiques en haute altitude**.\
+-   Traitement et modélisation statistique des données sous R : modèles logistiques et GLM.\
+-   Développement d’un **outil Shiny** pour faciliter l’exploration et l’interprétation des données par les chercheurs.
+
+### Développement application Shiny – Cyclamed
+
+**09/2023 - 04/2024**
+
+-   Optimisation de la **caractérisation des médicaments non utilisés** en France.\
+-   Analyse statistique des données DIM sous R pour **affiner la méthodologie de caractérisation**.\
+-   Développement d’une **application Shiny complète**, incluant tableau de bord et outils interactifs pour la **caractérisation annuelle**.
+
+### Data visualisation – Open Data University
+
+**01/2024 - 04/2024**
+
+-   Développement d’un **tableau de bord interactif en Python (Dash)** sur les accidents de vélo en France.\
+-   Objectif : **sensibiliser et soutenir la prise de décision** des collectivités locales via des visualisations claires et interactives.

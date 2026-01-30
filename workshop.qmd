@@ -1,0 +1,12 @@
+---
+title: "Workshop"
+listing:
+  contents: projects
+  type: default
+  max-description-length: 250
+  categories: true
+  sort:
+    - "date desc"
+---
+
+Vous trouverez ci-dessous quelques projets phares de mon portfolio. Ces projets illustrent différentes expériences académiques et professionnelles en **analyse de données**, **statistiques appliquées** et **développement d’outils décisionnels**. Ils mettent en avant des problématiques concrètes, des méthodologies reproductibles et des solutions orientées métier.

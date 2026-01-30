@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 9aada5de-5dac-4647-9295-e7dc0ed9aa33
+      url: https://yanismicha.quarto.pub/portfolio-data
