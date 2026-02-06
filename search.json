@@ -4,287 +4,63 @@
     "href": "workshop.html",
     "title": "Projets",
     "section": "",
-    "text": "Vous trouverez ci-dessous quelques projets phares de mon portfolio. Ces projets illustrent différentes expériences académiques et professionnelles en analyse de données, statistiques appliquées et développement d’outils décisionnels. Ils mettent en avant des problématiques concrètes, des méthodologies reproductibles et des solutions orientées métier.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoitec - Analyse et optimisation des temps de cycle\n\n\n\n\n\n\nJMP\n\n\nProgrammation R\n\n\nAnalyse de données\n\n\ntableau de bord\n\n\ndonnées industrielles\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExpeditionApp – Application Shiny pour l’analyse du CMS\n\n\n\n\n\n\nProgrammation R\n\n\nApplication shiny\n\n\nAnalyse de données\n\n\nTableau de bord\n\n\nRecherche Scientifique\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nExpédition 5300 - Analyse des données physiologiques\n\n\n\n\n\n\nRecherche scientifique\n\n\nProgrammation R\n\n\nAnalyse de données\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCyclamed – Application Shiny pour optimiser la caractérisation des MNU\n\n\n\n\n\n\nProgrammation R\n\n\nApplication shiny\n\n\nTableau de bord\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDashbike – Tableau de bord interactif sur les accidents de vélo en France\n\n\n\n\n\n\nProgrammation Python\n\n\nDash\n\n\nTableau de bord\n\n\n\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyse prédictive du succès des expeditions himalayennes\n\n\n\n\n\n\nMachine Learning\n\n\nProgrammation Python\n\n\nProgrammation Julia\n\n\nAnalyse de données\n\n\nShiny\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Vous trouverez ci-dessous quelques projets phares de mon portfolio. Ces projets illustrent différentes expériences académiques et professionnelles en analyse de données, statistiques appliquées et développement d’outils décisionnels. Ils mettent en avant des problématiques concrètes, des méthodologies reproductibles et des solutions orientées métier.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSuivi et analyse de données santé\n\n\n\n\n\n\nQuarto Dashboard\n\n\nHtml\n\n\nCSS\n\n\nJavascript\n\n\nTableau de bord\n\n\nProgrammation R\n\n\nScraping\n\n\nProgrammation python\n\n\n\n\n\n\n\n\n\nJan 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSoitec - Analyse et optimisation des temps de cycle\n\n\n\n\n\n\nJMP\n\n\nProgrammation R\n\n\nAnalyse de données\n\n\ntableau de bord\n\n\ndonnées industrielles\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExpeditionApp – Application Shiny pour l’analyse du CMS\n\n\n\n\n\n\nProgrammation R\n\n\nApplication shiny\n\n\nAnalyse de données\n\n\nTableau de bord\n\n\nRecherche Scientifique\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nExpédition 5300 - Analyse des données physiologiques\n\n\n\n\n\n\nRecherche scientifique\n\n\nProgrammation R\n\n\nAnalyse de données\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCyclamed – Application Shiny pour optimiser la caractérisation des MNU\n\n\n\n\n\n\nProgrammation R\n\n\nApplication shiny\n\n\nTableau de bord\n\n\n\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDashbike – Tableau de bord interactif sur les accidents de vélo en France\n\n\n\n\n\n\nProgrammation Python\n\n\nDash\n\n\nTableau de bord\n\n\n\n\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyse prédictive du succès des expeditions himalayennes\n\n\n\n\n\n\nMachine Learning\n\n\nProgrammation Python\n\n\nProgrammation Julia\n\n\nAnalyse de données\n\n\nShiny\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/stage-m2.html",
-    "href": "projects/stage-m2.html",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "objectID": "projects/track_app.html",
+    "href": "projects/track_app.html",
+    "title": "Suivi et analyse de données santé",
     "section": "",
-    "text": "Mon stage s’est déroulé chez Soitec, entreprise de semi-conducteurs située à Bernin, proche de Grenoble, plus précisément au sein du service Contrôle de Production de la fabrique B3.\nLa fabrique Bernin 3 est une ancienne ligne de R&D convertie en ligne de production à fort volume, spécialisée dans le produit POI de Soitec.\nDepuis deux ans, la demande pour ce produit a fortement augmenté (+60%), nécessitant une extension de l’usine et des recrutements massifs (+360 personnes).\nCette croissance rapide pose un double enjeu stratégique pour l’entreprise :\n\nProduire à grande échelle pour répondre à la demande tout en maintenant la qualité et les délais,\n\nContinuer à innover et améliorer les procédés de fabrication, afin de rester compétitive et pérenniser la ligne POI.\n\nLe rôle du CDP (Continuous Development & Production) est crucial dans ce contexte : il doit garantir la fluidité de la production, la réactivité face aux perturbations et la conformité aux exigences qualité.\nLa maîtrise du temps de cycle est un levier stratégique majeur pour :\n\ntenir les délais de livraison\nréduire les en-cours (WIP) et optimiser la capacité machine\nfaciliter la planification et rendre la production plus prévisible"
+    "text": "Ce projet a été réalisé dans le cadre d’une mission freelance commandée par deux utilisateurs pour un usage strictement personnel.\nCes derniers souhaitaient disposer d’un outil leur permettant de collecter, centraliser et analyser des informations précises liées à leurs habitudes quotidiennes, afin de mieux comprendre leurs comportements, leurs loisirs et leur mode de vie.\nLa demande s’inscrivait dans une démarche de suivi et de gestion des habitudes, avec un besoin de simplicité d’utilisation, de sécurité des données et de visualisation claire des informations collectées."
   },
   {
-    "objectID": "projects/stage-m2.html#contexte",
-    "href": "projects/stage-m2.html#contexte",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "objectID": "projects/track_app.html#contexte",
+    "href": "projects/track_app.html#contexte",
+    "title": "Suivi et analyse de données santé",
     "section": "",
-    "text": "Mon stage s’est déroulé chez Soitec, entreprise de semi-conducteurs située à Bernin, proche de Grenoble, plus précisément au sein du service Contrôle de Production de la fabrique B3.\nLa fabrique Bernin 3 est une ancienne ligne de R&D convertie en ligne de production à fort volume, spécialisée dans le produit POI de Soitec.\nDepuis deux ans, la demande pour ce produit a fortement augmenté (+60%), nécessitant une extension de l’usine et des recrutements massifs (+360 personnes).\nCette croissance rapide pose un double enjeu stratégique pour l’entreprise :\n\nProduire à grande échelle pour répondre à la demande tout en maintenant la qualité et les délais,\n\nContinuer à innover et améliorer les procédés de fabrication, afin de rester compétitive et pérenniser la ligne POI.\n\nLe rôle du CDP (Continuous Development & Production) est crucial dans ce contexte : il doit garantir la fluidité de la production, la réactivité face aux perturbations et la conformité aux exigences qualité.\nLa maîtrise du temps de cycle est un levier stratégique majeur pour :\n\ntenir les délais de livraison\nréduire les en-cours (WIP) et optimiser la capacité machine\nfaciliter la planification et rendre la production plus prévisible"
+    "text": "Ce projet a été réalisé dans le cadre d’une mission freelance commandée par deux utilisateurs pour un usage strictement personnel.\nCes derniers souhaitaient disposer d’un outil leur permettant de collecter, centraliser et analyser des informations précises liées à leurs habitudes quotidiennes, afin de mieux comprendre leurs comportements, leurs loisirs et leur mode de vie.\nLa demande s’inscrivait dans une démarche de suivi et de gestion des habitudes, avec un besoin de simplicité d’utilisation, de sécurité des données et de visualisation claire des informations collectées."
   },
   {
-    "objectID": "projects/stage-m2.html#objectifs",
-    "href": "projects/stage-m2.html#objectifs",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
-    "section": "Objectifs",
-    "text": "Objectifs\nLe projet de stage visait à améliorer la visibilité et le pilotage des temps de cycle au sein du service CDP. Les objectifs principaux étaient :\n\nAnalyse critique des travaux existants :\n\nÉvaluer les outils et méthodes précédemment utilisés pour identifier les limites et points d’amélioration.\n\nComparer les approches « par lot » vs « par plaque ».\n\nDéfinition et formalisation des temps de cycle :\n\nProposer une définition claire et partagée adaptée au contexte de B3.\n\nDévelopper des estimateurs pertinents pour mesurer ces temps de cycle.\n\nAnalyse et optimisation des temps de cycle :\n\nCréer un outil dédié permettant au CDP de suivre les temps de cycle en temps réel.\n\nFournir des indicateurs clairs et actionnables pour aider à la prise de décision.\n\nMise en place d’analyses reproductibles :\n\nSuivi dynamique des lignes principales et des étapes critiques (goulots, détracteurs).\n\nAnalyse historique pour comprendre les variations et dysfonctionnements passés.\n\nAnalyse en continu pour détecter et corriger les anomalies en temps réel.\n\nFormation du service CDP :\n\nPrésenter l’outil, sa logique et ses fonctionnalités.\n\nExpliquer les formules et indicateurs utilisés de manière interprétable et actionnable.\n\nMontrer des cas pratiques et recueillir les retours utilisateurs pour ajuster l’outil."
-  },
-  {
-    "objectID": "projects/stage-m2.html#méthodologie",
-    "href": "projects/stage-m2.html#méthodologie",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
-    "section": "Méthodologie",
-    "text": "Méthodologie\n\nDémarche générale : approche statistique structurée autour de deux axes complémentaires et deux types d’analyses pour répondre aux besoins de compréhension globale et aux exigences de réactivité du terrain.\nAxes d’analyse :\n\nVision macroscopique : aperçu global des temps de cycle par flow de production, calcul des indicateurs (moyenne, médiane, 90%) et suivi des tendances dans le temps pour identifier les dérives majeures.\n\nVision microscopique : analyse par étapes de production pour suivre les temps d’attente, comprendre leurs causes et identifier les détracteurs critiques.\n\nTypes d’analyses :\n\nÉtat des lieux : statistiques descriptives sur les données historiques pour comprendre les comportements passés et définir des valeurs cibles.\n\nPilotage opérationnel : indicateurs dynamiques permettant d’alerter rapidement en cas de dérive et de suivre l’efficacité des actions correctives.\n\nOutils utilisés :\n\nInitialement R, mais des restrictions de sécurité ont imposé l’usage de JMP.\n\nJMP permet une expérience utilisateur intuitive, des graphiques et tables interactives, et un scripting via JSL (JMP Scripting Language).\n\nSources et préparation des données :\n\nBases Yield, mises à jour deux fois par jour et vision à la plaque adaptée à l’analyse.\n\nCertains paramètres non accessibles ont été reconstruits ou omis si nécessaire.\n\nTechniques statistiques :\n\nTraitement et modélisation des données pour caractériser les temps de cycle. - Réalisation de simulations Monte Carlo sous R pour comparer différents estimateurs (moyenne, médiane, moyenne tronquée, moyenne Winsorisée) et justifier le choix de l’indicateur le plus robuste pour le suivi des temps de cycle.\nStatistiques descriptives et analytiques adaptées aux objectifs.\n\nVisualisation des données pour identifier anomalies et dérives.\n\nModélisation statistique : modèles linéaires et arbres de décision pour identifier les paramètres influençant le temps de cycle.\n\nLimites méthodologiques :\n\nBiais potentiels liés aux données pouvant affecter les analyses.\n\nDifficulté d’accès à certaines données et outils limitant la profondeur des analyses."
-  },
-  {
-    "objectID": "projects/stage-m2.html#résultats",
-    "href": "projects/stage-m2.html#résultats",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
-    "section": "Résultats",
-    "text": "Résultats\n\nOutil JMP intégré au CDP :\n\nCréation d’une interface interactive et centralisée via le journal JMP, permettant de lier et piloter différents scripts depuis un seul point d’entrée (boutons, menus).\n\nInterface intuitive pour les utilisateurs non experts, facilitant le lancement des analyses sans manipulation directe des scripts ou des données.\n\nTransmission efficace des analyses au sein du service, garantissant reproductibilité et autonomie des utilisateurs.\n\nDéploiement et formation :\n\nPrésentations et démonstrations auprès des équipes, points réguliers avec le directeur et responsable process.\n\nGuides utilisateur et développeur : documentation de l’architecture, des scripts et des méthodes pour faciliter la maintenance et les mises à jour futures.\n\nVersion bêta testée par plusieurs membres du service pour recueillir les retours sur l’ergonomie, les fonctionnalités et identifier d’éventuels bugs.\n\nAnalyses temps de cycle :\n\nAnalyses récurrentes pour suivi hebdomadaire, à l’échelle globale et par étape.\n\nAnalyses de surveillance et de contrôle de production, incluant comparaison top/base.\n\nParticipation à des missions annexes, notamment la mise en place du projet INFICON au sein de Soitec."
-  },
-  {
-    "objectID": "projects/stage-m2.html#compétences-développées",
-    "href": "projects/stage-m2.html#compétences-développées",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
-    "section": "Compétences développées",
-    "text": "Compétences développées\n\nAnalyse et modélisation des temps de cycle : conception d’indicateurs pertinents et reproductibles pour le suivi de production.\n\nStatistiques descriptives et analytiques : traitement, visualisation et interprétation des données à l’échelle macroscopique et microscopique.\n\nDéveloppement d’outils interactifs avec JMP : création d’interfaces utilisateurs centralisées et intuitives pour la diffusion des analyses.\n\nGestion de projet et documentation : élaboration de guides utilisateur et développeur pour assurer la maintenance et la continuité de l’outil.\n\nFormation et communication : présentation des analyses et outils aux équipes, clarification des indicateurs et accompagnement dans l’utilisation quotidienne.\n\nRésolution de problèmes opérationnels : adaptation à des contraintes techniques et sécuritaires tout en maintenant la pertinence et la fiabilité des analyses."
-  },
-  {
-    "objectID": "projects/stage-m2.html#aperçu-de-loutil",
-    "href": "projects/stage-m2.html#aperçu-de-loutil",
-    "title": "Soitec - Analyse et optimisation des temps de cycle",
-    "section": "Aperçu de l’outil",
-    "text": "Aperçu de l’outil\n\nArchitecture côté utilisateur\n\n\n\nArchitecture utilisateur\n\n\nSchéma présentant la répartition des fonctionnalités pour l’utilisateur final :\n- By comp_id : analyses globales des temps de cycle.\n- By step : analyses des temps de cycle par étapes de production.\n- TOP/BASE : analyses dédiées au pilotage des deux lignes principales pour coordination des lancements.\n- Trimmed mean : analyses basées sur la moyenne tronquée pour un indicateur robuste.\n- Bloc vert : fonctionnalités de gestion et mise à jour des jeux de données, accès aux guides utilisateur.\n\n\nArchitecture côté développeur\n\n\n\nArchitecture développeur\n\n\nVue des scripts, données et dépendances côté développement, montrant comment l’outil est structuré pour assurer son bon fonctionnement et sa maintenance.\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres exacts sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
-  },
-  {
-    "objectID": "projects/ML.html",
-    "href": "projects/ML.html",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "",
-    "text": "Ce projet a été réalisé dans le cadre de l’UE Logiciels spécialisés du Master, en binôme, avec pour objectif de mettre oeuvre l’ensemble des étapes d’un projet de science des données, depuis la recherche du jeu de données jusqu’à la réalisation d’une interface interactive intégrant des méthodes d’apprentissage automatique.\nNous avons choisi de travailler sur un jeu de données recensant des expéditions himalayennes, contenant des informations détaillées sur les grimpeurs, les expéditions et leurs issues. Parmi les variables disponibles, la variable success, indiquant le succès ou l’échec d’une expédition, s’est révélée particulièrement pertinente pour aborder des problématiques de prédiction en apprentissage supervisé.\nLe jeu de données, fourni au format CSV, comprend 76 519 individus et 21 variables. Cependant, celui-ci s’est avéré peu exploitable en l’état : données manquantes, incohérences, variables hétérogènes et absence de structuration adaptée à l’analyse statistique et au machine learning. Une part importante du projet a donc consisté en un travail approfondi de nettoyage et de préparation des données.\nCe projet avait également une dimension pédagogique forte : il s’agissait d’une initiation au langage Julia, tout en comparant ses performances et sa prise en main à celles d’outils plus classiques comme Python, dans un contexte de machine learning appliqué."
-  },
-  {
-    "objectID": "projects/ML.html#contexte",
-    "href": "projects/ML.html#contexte",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "",
-    "text": "Ce projet a été réalisé dans le cadre de l’UE Logiciels spécialisés du Master, en binôme, avec pour objectif de mettre oeuvre l’ensemble des étapes d’un projet de science des données, depuis la recherche du jeu de données jusqu’à la réalisation d’une interface interactive intégrant des méthodes d’apprentissage automatique.\nNous avons choisi de travailler sur un jeu de données recensant des expéditions himalayennes, contenant des informations détaillées sur les grimpeurs, les expéditions et leurs issues. Parmi les variables disponibles, la variable success, indiquant le succès ou l’échec d’une expédition, s’est révélée particulièrement pertinente pour aborder des problématiques de prédiction en apprentissage supervisé.\nLe jeu de données, fourni au format CSV, comprend 76 519 individus et 21 variables. Cependant, celui-ci s’est avéré peu exploitable en l’état : données manquantes, incohérences, variables hétérogènes et absence de structuration adaptée à l’analyse statistique et au machine learning. Une part importante du projet a donc consisté en un travail approfondi de nettoyage et de préparation des données.\nCe projet avait également une dimension pédagogique forte : il s’agissait d’une initiation au langage Julia, tout en comparant ses performances et sa prise en main à celles d’outils plus classiques comme Python, dans un contexte de machine learning appliqué."
-  },
-  {
-    "objectID": "projects/ML.html#objectifs",
-    "href": "projects/ML.html#objectifs",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "Objectifs",
-    "text": "Objectifs\nLes objectifs du projet étaient multiples :\n\nRéaliser un travail de recherche exploratoire afin de comprendre le contexte du jeu de données et les problématiques associées aux expéditions himalayennes.\nMettre oeuvre une analyse exploratoire et un traitement approfondi des données, afin de rendre le jeu de données exploitable pour l’analyse statistique et l’apprentissage supervisé.\nMettre en place des modèles d’apprentissage automatique supervisé visant à prédire le succès ou l’échec d’une expédition.\nComparer différentes approches et écosystèmes logiciels, en particulier Python et Julia, pour des tâches de machine learning.\nDécouvrir et manipuler l’interopérabilité entre plusieurs langages au sein d’une même application: ici faire fonctionner du code python et julia au sein d’une interface shiny R.\nConcevoir et développer une interface interactive permettant:\n\n\nl’intégration des visualisations, des analyses et des résultats des modèles.\nla comparaison des différents packages de visualisations au sein du language R (base,ggplot2,plotly)."
-  },
-  {
-    "objectID": "projects/ML.html#méthodologie",
-    "href": "projects/ML.html#méthodologie",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "Méthodologie",
-    "text": "Méthodologie\n\nRecherche et compréhension du jeu de données Analyse du contexte des expéditions himalayennes et étude de la signification des variables afin d’évaluer leur pertinence pour l’analyse statistique et la prédiction du succès d’une expédition.\nGestion des données manquantes\n\nSuppression des valeurs manquantes pour les variables secondaires ou peu informatives.\nImputation des valeurs manquantes pour les variables considérées comme primordiales pour la prédiction, afin de conserver un maximum d’individus exploitables.\n\nPrétraitement et harmonisation des données\n\nAgrégation de variables catégorielles.\nTransformation de variables quantitatives.\nCréation de nouvelles variables pertinentes (par exemple : nombre de personnes dans la cordée d’un grimpeur).\nHarmonisation des formats et des typologies de données pour garantir leur cohérence.\n\nAnalyse exploratoire des données (EDA)\n\nTests statistiques et visualisations croisant la variable cible success avec les variables explicatives.\nObjectif : réaliser une première sélection des variables pertinentes en vue de la modélisation prédictive.\n\nFormatage des données pour le machine learning\n\nEncodage des variables catégorielles (One-Hot Encoding).\nNormalisation et mise à l’échelle des variables quantitatives.\nPréparation de jeux de données compatibles avec les modèles supervisés.\n\nModélisation prédictive\n\nUtilisation de modèles volontairement simples afin de faciliter la comparaison entre Julia et Python :\n\nK-Nearest Neighbors (KNN)\nRandom Forest\nSupport Vector Machines (SVM)\n\n\nConception de l’interface interactive\n\nIntégration des modèles d’apprentissage automatique au sein d’une application Shiny.\nObjectif principal : permettre à un utilisateur non initié au machine learning de tester de manière ludique la prédiction du succès ou de l’échec d’une expédition himalayenne en fonction de différentes conditions (profil du grimpeur, caractéristiques de l’expédition, etc.).\n\nVisualisation des données\n\nImplémentation de graphiques et visualisations avec comparaisons de trois packages complémentaires :\n\ngraphiques de base R\nggplot2\nplotly pour des visualisations interactives"
-  },
-  {
-    "objectID": "projects/ML.html#outils-utilisés",
-    "href": "projects/ML.html#outils-utilisés",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "Outils utilisés",
-    "text": "Outils utilisés\n\nJulia\n\nPrétraitement des données (nettoyage, transformation, sélection de variables)\nAnalyse exploratoire des données\nApprentissage automatique avec MLJ\n\nPython\n\nApprentissage automatique avec scikit-learn\nComparaison des performances et des méthodologies avec Julia\n\nR / Shiny\n\nDéveloppement de l’interface interactive\nVisualisation des données et des résultats\nIntégration des traitements et modèles issus de Julia et Python via des packages R dédiés"
-  },
-  {
-    "objectID": "projects/ML.html#compétences-développées",
-    "href": "projects/ML.html#compétences-développées",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "Compétences développées",
-    "text": "Compétences développées\n\nPrétraitement et nettoyage de données complexes : gestion d’un jeu de données volumineux et hétérogène, traitement des valeurs manquantes, harmonisation des formats et création de variables pertinentes pour l’analyse et la prédiction.\nAnalyse exploratoire des données : exploration statistique et graphique des relations entre la variable cible (success) et les variables explicatives afin d’identifier les facteurs les plus influents.\nMachine Learning supervisé : mise en oeuvre et comparaison de modèles prédictifs (KNN, Random Forest, SVM) dans une logique pédagogique et comparative entre plusieurs langages.\nApproche multi-langages en data science : utilisation conjointe de Julia, Python (scikit-learn) et R, et intégration de ces environnements au sein d’un même projet analytique.\nDéveloppement d’applications interactives : conception d’une application Shiny permettant à des utilisateurs non spécialistes de tester des scénarios prédictifs de manière intuitive et ludique.\nVisualisation de données : création de visualisations statiques et interactives avec les packages base R, ggplot2 et plotly, adaptées à l’exploration et permettant un retour critique sur leurs avantages et leurs inconvénients.\nVulgarisation et pédagogie du Machine Learning : transformation de modèles et concepts complexes en outils accessibles, favorisant la compréhension des mécanismes de prédiction auprès d’un public non initié.\nTravail collaboratif et gestion de projet : réalisation d’un projet académique en binôme, depuis la définition de la problématique jusqu’au développement de l’interface et des modèles prédictifs.\n\nVous pouvez retrouver une partie du jeu de données utilisés ici:"
-  },
-  {
-    "objectID": "projects/ML.html#aperçu-de-lapplication",
-    "href": "projects/ML.html#aperçu-de-lapplication",
-    "title": "Analyse prédictive du succès des expeditions himalayennes",
-    "section": "Aperçu de l’application",
-    "text": "Aperçu de l’application\n\n1. Données\n\n\n\n\n\nTableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.\n\n\n2. Résumé des données\n\n\n\n\n\nRésumé statistiques des informations : estimateurs statistiques pour les variables continues, effectif et fréquence pour les variables catégorielles.\n\n\n3. Visualisation\n\n\n\n\n\nGraphiques permettant l’exploration visuelle du jeu de données, mais également de comparer ces derniers en fonction du package de grpahique utilisés\n\n\n4. Prediction\n\n\n\n\n\nInterface interactive de prédiction : l’utilisateur peut saisir ses propres informations et obtenir une estimation de probabilité de succès d’une expédition himalayenne selon les modèles supervisés implémentés."
-  },
-  {
-    "objectID": "projects/dashbike.html",
-    "href": "projects/dashbike.html",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "",
-    "text": "Dashbike est un tableau de bord interactif développé en Python dans le cadre du programme pédagogique de l’Open Data University.\nLe projet s’appuie sur des données publiques et vise à exploiter des données ouvertes à fort enjeu sociétal : les accidents de vélo en France. Les données proviennent de data.gouv.fr et sont issues du Fichier BAAC (Bulletin d’Analyse des Accidents Corporels), administré par l’Observatoire national interministériel de la sécurité routière (ONISR).\nLe jeu de données recense, pour la période 2005–2024, l’ensemble des accidents corporels de la circulation survenus sur une voie ouverte à la circulation publique, impliquant au moins un véhicule,ayant entraîné au moins une victime nécessitant des soins. Dans le cadre de ce projet, seules les observations impliquant au moins une personne à vélo ont été retenues.\nLe tableau de bord est entièrement téléchargeable et modifiable depuis mon dépôt GitHub, dans une logique de transparence, de reproductibilité et de diffusion des analyses."
-  },
-  {
-    "objectID": "projects/dashbike.html#contexte",
-    "href": "projects/dashbike.html#contexte",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "",
-    "text": "Dashbike est un tableau de bord interactif développé en Python dans le cadre du programme pédagogique de l’Open Data University.\nLe projet s’appuie sur des données publiques et vise à exploiter des données ouvertes à fort enjeu sociétal : les accidents de vélo en France. Les données proviennent de data.gouv.fr et sont issues du Fichier BAAC (Bulletin d’Analyse des Accidents Corporels), administré par l’Observatoire national interministériel de la sécurité routière (ONISR).\nLe jeu de données recense, pour la période 2005–2024, l’ensemble des accidents corporels de la circulation survenus sur une voie ouverte à la circulation publique, impliquant au moins un véhicule,ayant entraîné au moins une victime nécessitant des soins. Dans le cadre de ce projet, seules les observations impliquant au moins une personne à vélo ont été retenues.\nLe tableau de bord est entièrement téléchargeable et modifiable depuis mon dépôt GitHub, dans une logique de transparence, de reproductibilité et de diffusion des analyses."
-  },
-  {
-    "objectID": "projects/dashbike.html#objectifs",
-    "href": "projects/dashbike.html#objectifs",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "Objectifs",
-    "text": "Objectifs\nL’objectif principal de Dashbike est double :\n\nSensibilisation : rendre visibles et compréhensibles les dynamiques des accidents de vélo afin de mieux appréhender les risques associés à la pratique du vélo.\nAide à la prise de décision : fournir un outil d’exploration interactif permettant d’identifier des zones à risque, des tendances temporelles ou géographiques, et d’orienter les politiques de prévention et d’aménagement.\n\nLe tableau de bord permet de visualiser les accidents impliquant des cyclistes à différentes échelles :\n\nnationale\nrégionale\ndépartementale"
-  },
-  {
-    "objectID": "projects/dashbike.html#besoins-utilisateurs",
-    "href": "projects/dashbike.html#besoins-utilisateurs",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "Besoins utilisateurs",
-    "text": "Besoins utilisateurs\nCe type de projet s’adresse à plusieurs profils d’utilisateurs :\n\nCollectivités territoriales et décideurs publics : pour identifier les zones accidentogènes et prioriser les actions de sécurité routière.\nUrbanistes et aménageurs : pour appuyer la conception d’infrastructures cyclables plus sûres.\nChercheurs et analystes : pour explorer les données et formuler des hypothèses.\nGrand public et associations : pour mieux comprendre les enjeux de sécurité liés à la pratique du vélo.\n\nLes besoins fonctionnels principaux sont :\n\nune visualisation claire et synthétique des accidents à différentes échelles territoriales\nla possibilité de filtrer et comparer les données dans le temps et dans l’espace\nune interface intuitive permettant une prise en main rapide, sans expertise technique préalable."
-  },
-  {
-    "objectID": "projects/dashbike.html#choix-techniques-et-architecture",
-    "href": "projects/dashbike.html#choix-techniques-et-architecture",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "Choix techniques et architecture",
-    "text": "Choix techniques et architecture\nLe tableau de bord a été développé en Python, avec les technologies suivantes :\n\nDash : framework pour la création d’applications web analytiques interactives.\nPlotly : bibliothèque de visualisation pour des graphiques interactifs et dynamiques.\nPandas / NumPy : manipulation, nettoyage et structuration des données."
-  },
-  {
-    "objectID": "projects/dashbike.html#compétences-développées",
-    "href": "projects/dashbike.html#compétences-développées",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "Compétences développées",
-    "text": "Compétences développées\n\nConception de tableaux de bord interactifs : développement d’un tableau de bord Python (Dash) pensé pour explorer et communiquer des données complexes sur les accidents de vélo.\n\nVisualisation avancée de données : création de graphiques dynamiques à différentes échelles géographiques et temporelles, avec mise en évidence des tendances et patterns structurels.\n\nExploitation et valorisation de données ouvertes (open data) : traitement et analyse de données publiques issues de data.gouv et d’autres sources complémentaires.\n\nPréparation et transformation des données (data engineering) : croisement et enrichissement de jeux de données hétérogènes, intégration de données géographiques (GeoJSON : communes, régions, pistes cyclables) et mise en place d’un pipeline via ETL (Knime).\n\nAnalyse avancée de séries temporelles : exploration des dynamiques temporelles, lissage, décomposition en composantes observée, tendance, saisonnalité et résidus.\n\nStructuration et partage de projets analytiques : organisation du code et des analyses pour une réutilisation et diffusion facile via GitHub.\n\nOrientation utilisateur et impact : conception pensée pour sensibiliser, aider à la prise de décision et communiquer les résultats à des publics variés (décideurs, chercheurs, associations)."
-  },
-  {
-    "objectID": "projects/dashbike.html#aperçu-du-tableau-de-bord",
-    "href": "projects/dashbike.html#aperçu-du-tableau-de-bord",
-    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
-    "section": "Aperçu du tableau de bord",
-    "text": "Aperçu du tableau de bord\nLe tableau de bord Dashbike est structuré autour de plusieurs vues complémentaires permettant d’explorer les accidents de vélo sous différents angles : temporel, descriptif et spatial. Chaque page répond à un objectif analytique précis et facilite la compréhension des phénomènes observés.\n\nAnalyse temporelle des accidents\nCette page est dédiée à l’étude des évolutions temporelles des accidents de vélo.\nElle permet d’analyser les tendances de long terme, la saisonnalité et les variations interannuelles, à l’aide de techniques de lissage et de décomposition des séries temporelles.\n\n\n\n\n\n\n\nCaractéristiques des accidents\nCette vue permet d’explorer les principales caractéristiques des accidents :\nprofil des victimes, types de routes, environnement de l’accident, conditions météorologiques, etc.\nElle offre une lecture descriptive essentielle pour identifier les facteurs associés aux accidents.\n\n\n\n\n\n\n\nCartographie des accidents en France\nCette page propose une visualisation spatiale fine des accidents de vélo à l’échelle nationale.\nChaque accident est représenté par un point géolocalisé, permettant d’identifier les zones à forte concentration et les dynamiques territoriales.\n\n\n\n\n\n\n\nSynthèse territoriale par régions et départements\nCette vue agrège les accidents à des niveaux administratifs plus larges (régions et départements).\nElle permet de comparer les territoires à l’aide d’indicateurs synthétiques tels que :\n\nnombre d’accidents\ntaux d’accidents pour 1 000 habitants\nratios entre accidents et infrastructures cyclables\n\n\n\n\n\n\nLien pour accès à une version du tableau de bord ici"
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Projets",
-    "section": "",
-    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle \n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
-  },
-  {
-    "objectID": "project.html#projets-académiques-professionnels",
-    "href": "project.html#projets-académiques-professionnels",
-    "title": "Projets",
-    "section": "",
-    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle \n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Yanis Micha",
-    "section": "",
-    "text": "Diplômé d’un Master Statistique et Science des Données (SSD), je suis statisticien avec un fort intérêt pour l’analyse de données appliquée et le développement d’outils d’aide à la décision.\nJ’utilise principalement R et Python pour explorer, analyser et modéliser les données, ainsi que pour concevoir des applications interactives et des tableaux de bord destinés à des utilisateurs métiers.\nMon objectif est de donner du sens aux données, de les rendre compréhensibles et exploitables, et de transformer des résultats statistiques en informations utiles pour la prise de décision."
-  },
-  {
-    "objectID": "index.html#à-propos-de-moi",
-    "href": "index.html#à-propos-de-moi",
-    "title": "Yanis Micha",
-    "section": "",
-    "text": "Diplômé d’un Master Statistique et Science des Données (SSD), je suis statisticien avec un fort intérêt pour l’analyse de données appliquée et le développement d’outils d’aide à la décision.\nJ’utilise principalement R et Python pour explorer, analyser et modéliser les données, ainsi que pour concevoir des applications interactives et des tableaux de bord destinés à des utilisateurs métiers.\nMon objectif est de donner du sens aux données, de les rendre compréhensibles et exploitables, et de transformer des résultats statistiques en informations utiles pour la prise de décision."
-  },
-  {
-    "objectID": "index.html#ce-que-je-fais",
-    "href": "index.html#ce-que-je-fais",
-    "title": "Yanis Micha",
-    "section": "Ce que je fais",
-    "text": "Ce que je fais\n\nAnalyse et visualisation de données\nExploration, nettoyage et analyse de données, avec la création de visualisations claires et interactives sous R et Python pour faciliter la compréhension des résultats.\nInterrogation et exploitation de bases de données (SQL)\nExtraction, jointure et transformation de données issues de bases relationnelles à l’aide de requêtes SQL, en lien avec des problématiques d’analyse et de reporting.\nReporting reproductible et automatisé\nConception de rapports dynamiques et reproductibles (Quarto, R Markdown), permettant de fiabiliser les analyses.\nDéveloppement d’outils d’aide à la décision\nCréation d’applications interactives (notamment avec Shiny) et de tableaux de bord (Power BI, Quarto) pour rendre les analyses accessibles aux équipes métiers.\nModélisation statistique et analyse exploratoire\nMise en œuvre de méthodes statistiques adaptées aux problématiques métier : analyses descriptives, comparatives et modèles explicatifs.\nStructuration et qualité des données\nMise en place de contrôles de cohérence, gestion des données manquantes et préparation des données pour garantir des analyses fiables.\nCommunication des résultats\nTraduction de résultats statistiques en messages intelligibles, adaptés à des publics techniques ou non techniques."
-  },
-  {
-    "objectID": "projects/cyclamed.html",
-    "href": "projects/cyclamed.html",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
-    "section": "",
-    "text": "Cyclamed est l’éco-organisme en charge de la gestion des Médicaments Non Utilisés (MNU) en France.\nDans ce cadre, Cyclamed réalise chaque année une étude de caractérisation des déchets afin d’identifier et de quantifier les composantes spécifiques contenues dans les Déchets Issus des Médicaments (DIM).\nCette étude a permis de définir une méthode d’échantillonnage, qui doit être appliquée et mise à jour chaque année en fonction de l’évolution des sites et des volumes collectés."
-  },
-  {
-    "objectID": "projects/cyclamed.html#contexte",
-    "href": "projects/cyclamed.html#contexte",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
-    "section": "",
-    "text": "Cyclamed est l’éco-organisme en charge de la gestion des Médicaments Non Utilisés (MNU) en France.\nDans ce cadre, Cyclamed réalise chaque année une étude de caractérisation des déchets afin d’identifier et de quantifier les composantes spécifiques contenues dans les Déchets Issus des Médicaments (DIM).\nCette étude a permis de définir une méthode d’échantillonnage, qui doit être appliquée et mise à jour chaque année en fonction de l’évolution des sites et des volumes collectés."
-  },
-  {
-    "objectID": "projects/cyclamed.html#objectifs-du-projet",
-    "href": "projects/cyclamed.html#objectifs-du-projet",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "objectID": "projects/track_app.html#objectifs-du-projet",
+    "href": "projects/track_app.html#objectifs-du-projet",
+    "title": "Suivi et analyse de données santé",
     "section": "Objectifs du projet",
-    "text": "Objectifs du projet\nLe projet consistait à développer une application Shiny répondant à plusieurs objectifs opérationnels.\n1. Automatiser la méthode d’échantillonnage\nLe premier objectif était de faciliter la mise en œuvre de la méthode d’échantillonnage définie lors de l’étude de caractérisation, en automatisant son application annuelle. L’outil devait permettre de reproduire la méthodologie de manière fiable, tout en limitant les interventions manuelles et les risques d’erreur.\n2. Visualiser et mettre à jour les données\nLe second objectif était de proposer un jeu de données interactif et visuel, permettant :\n\nd’explorer les données de caractérisation,\nde les modifier annuellement\nde prendre en compte les évolutions du terrain (ajout, suppression ou modification de sites de stockage).\n\nCette fonctionnalité a été mise en œuvre à l’aide du package DT, offrant une manipulation intuitive des données.\n3. Faciliter la prise de décision via un tableau de bord\nEnfin, l’application devait fournir une vue d’ensemble des données à travers un tableau de bord synthétique, afin d’aider les équipes de Cyclamed à :\n\nsuivre la répartition des tonnages de DIM par sites\nanalyser les volumes collectés\nappuyer les décisions liées à la caractérisation annuelle.\n\nLe tableau de bord constitue ainsi un outil phare pour permettre une vision globale des données et l’aide à la décision."
+    "text": "Objectifs du projet\nLes objectifs principaux du projet étaient les suivants :\n\nPermettre aux utilisateurs de saisir leurs données quotidiennes de manière intuitive et sécurisée\nCentraliser ces données dans un format structuré et exploitable (CSV)\nRécupérer les données sur une base annuelle afin de les analyser\nConstruire un tableau de bord synthétique offrant une vision globale et rétrospective de l’année écoulée\nComparer deux solutions de visualisation de données (Quarto Dashboard et Power BI) afin d’identifier leurs avantages et limites respectifs"
   },
   {
-    "objectID": "projects/cyclamed.html#besoins-utilisateurs",
-    "href": "projects/cyclamed.html#besoins-utilisateurs",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "objectID": "projects/track_app.html#méthodologie",
+    "href": "projects/track_app.html#méthodologie",
+    "title": "Suivi et analyse de données santé",
+    "section": "Méthodologie",
+    "text": "Méthodologie\nLe projet a été mené en plusieurs étapes successives :\n\nConception et développement de l’application de saisie\n\nDéveloppement d’une application via Google Apps Script\nInterface construite en HTML, CSS et JavaScript\nConnexion à Google Sheets pour le stockage des données\nObjectif : proposer une saisie des données la plus simple, rapide et intuitive possible\n\nRécupération et préparation des données\n\nExport des données saisies au format CSV\nNettoyage, transformation et harmonisation des données\nStructuration des données pour permettre une analyse fiable\n\nAnalyse des données\n\nAnalyse descriptive des habitudes des utilisateurs\nÉtude des fréquences, évolutions temporelles et tendances\nMise en évidence de comportements récurrents et de variations sur l’année\n\nConstruction des tableaux de bord\n\nCréation d’un tableau de bord avec R Quarto Dashboard\nCréation d’un second tableau de bord avec Power BI\nComparaison des deux outils en termes de flexibilité, interactivité, déploiement et maintenance\n\n\nEn parallèle du développement de l’application de suivi des habitudes, le projet incluait un volet annexe consacré à l’exploitation des données de films visionnés par les utilisateurs, comprenant:\n\nCollecte des données cinématographiques\n\nRécupération des données issues de la plateforme Letterboxd, avec l’accord explicite des utilisateurs.\nExtraction de l’ensemble des listes personnelles (films vus, journaux de visionnage).\n\nScraping et enrichissement des données\n\nDéveloppement de scripts Python dédiés au scraping des profils utilisateurs.\nMise en place de pipelines permettant :\n\nla récupération des films visionnés,\nl’extraction des métadonnées associées à chaque film (réalisateur, acteurs, durée, genres, année),\nla consolidation des données issues de plusieurs sources.\nTransformation des données brutes en fichiers CSV exploitables pour l’analyse et l’intégration dans les tableaux de bord.\n\n\nAnalyse et intégration au tableau de bord\n\nNettoyage, normalisation et harmonisation des données cinématographiques.\nCréation d’indicateurs et de visualisations permettant une lecture annuelle des habitudes de visionnage.\nIntégration de ces analyses au tableau de bord global aux côtés des autres dimensions de suivi (sport, consommation, dépenses)."
+  },
+  {
+    "objectID": "projects/track_app.html#besoins-utilisateurs",
+    "href": "projects/track_app.html#besoins-utilisateurs",
+    "title": "Suivi et analyse de données santé",
     "section": "Besoins utilisateurs",
-    "text": "Besoins utilisateurs\nL’application devait répondre aux besoins fonctionnels suivants :\n\nMettre à jour la liste des cinq sites de grossistes-répartiteurs à caractériser.\nRedéfinir les fourchettes de tonnages récupérés par site, pour chaque classe de grossistes-répartiteurs.\nDisposer de la liste des sites par classe.\nRelancer la sélection aléatoire des sites en outre-mer et des sites équipés de compacteurs."
+    "text": "Besoins utilisateurs\nLes besoins fonctionnels exprimés par les utilisateurs étaient les suivants :\n\nSuivi des séances de sport\n\nEnregistrement précis de la date de chaque séance\n\nSuivi de la consommation de cigarettes\n\nEnregistrement de la date de consommation\nIdentification du sachet de tabac associé\n\nSuivi des dépenses alimentaires\n\nEnregistrement précis de chaque dépense alimentaire\nDistinction entre dépenses personnelles et dépenses communes afin de permettre une régularisation mensuelle\n\nVisualisation et synthèse en temps réel\n\nAccès rapide à des indicateurs clés\nVisualisation claire de l’évolution des habitudes\nRésumé global permettant un suivi continu et une rétrospective annuelle\n\nSuivi des films et sorties cinéma\n\nRécupérer l’ensemble des films visionnés sur une année donnée, qu’ils aient été vus au cinéma ou à domicile.\nAccéder aux informations détaillées associées à chaque film (réalisateur, acteurs principaux, durée, genre, année de sortie).\nDisposer de visualisations synthétiques permettant de comprendre les habitudes culturelles (types de films, fréquence, temps total passé)."
   },
   {
-    "objectID": "projects/cyclamed.html#compétences-développées",
-    "href": "projects/cyclamed.html#compétences-développées",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "objectID": "projects/track_app.html#compétences-développées",
+    "href": "projects/track_app.html#compétences-développées",
+    "title": "Suivi et analyse de données santé",
     "section": "Compétences développées",
-    "text": "Compétences développées\n\nProgrammation R avancée\nDéveloppement d’une application interactive avec Shiny, structurée à l’aide du framework golem.\nL’utilisation de golem a permis de concevoir une application plus robuste, maintenable et sécurisée, en séparant clairement la logique métier, l’interface utilisateur et les traitements, et en facilitant le portage et les mises à jour annuelles.\nData visualisation avancée\nConception de visualisations statistiques avec ggplot2 et plotly, intégrant des graphiques interactifs et des interactions entre visualisations pour faciliter l’exploration et l’analyse des données.\nDéveloppement web pour applications data\nUtilisation de HTML, SCSS et JavaScript pour améliorer l’ergonomie, l’esthétique et la réactivité de l’application, et proposer une interface utilisateur adaptée à un usage opérationnel."
+    "text": "Compétences développées\nCe projet m’a permis de développer et renforcer les compétences suivantes :\n\nDéveloppement d’applications via Google Apps Script\nConception d’interfaces web avec HTML, CSS et JavaScript\nGestion et sécurisation des données utilisateurs\nAutomatisation de la collecte et de l’export de données\nNettoyage, transformation et structuration de données\nAnalyse de données exploratoire\nCréation de tableaux de bord interactifs\n\nR Quarto Dashboard\nPower BI\n\nComparaison d’outils de data visualisation (avantages, limites, cas d’usage)\nDéploiement et maintenance d’applications et de dashboards\nWeb scraping et collecte de données externes : extraction de données depuis une plateforme tierce (Letterboxd) avec Python.\nConception de pipelines de données : automatisation de la récupération, de l’enrichissement et de la transformation des données cinématographiques en formats exploitables.\nStructuration et enrichissement de données culturelles : gestion de métadonnées complexes (films, acteurs, réalisateurs, durées, genres).\nIntégration multi-sources dans un tableau de bord : fusion de données issues d’applications personnelles et de sources externes au sein d’un même dashboard analytique."
   },
   {
-    "objectID": "projects/cyclamed.html#aperçu-de-lapplication",
-    "href": "projects/cyclamed.html#aperçu-de-lapplication",
-    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "objectID": "projects/track_app.html#aperçu-de-lapplication",
+    "href": "projects/track_app.html#aperçu-de-lapplication",
+    "title": "Suivi et analyse de données santé",
     "section": "Aperçu de l’application",
-    "text": "Aperçu de l’application\nL’application Shiny développée pour Cyclamed permet de gérer la caractérisation annuelle des déchets issus des médicaments (DIM) de manière interactive et intuitive.\nVoici les principales fonctionnalités à travers des captures d’écran :\n\n1. Accueil\n\n\n\n\n\nPage d’accueil avec navigation principale vers les différentes sections de l’application.\n\n\n2. Sélection des sites\n\n\n\n\n\nSélection interactive des sites à caractériser, avec possibilité de mettre à jour la liste et de relancer la sélection aléatoire. Un historique des séléctions est également disponible.\n\n\n3. Données\n\n\n\n\n\nTableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.\n\n\n4. Résumé des données\n\n\n\n\n\nVue synthétique des informations clés : tonnages, répartition par site et par classe de grossiste-répartiteur.\n\n\n5. Visualisation\n\n\n\n\n\nGraphiques interactifs permettant l’exploration visuelle et l’analyse des tendances et indicateurs clés.\nCette interface interactive permet à Cyclamed de suivre, analyser et prendre des décisions rapidement, tout en automatisant la séléction de sites et en garantissant la fiabilité de la caractérisation annuelle.\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres présentés sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
+    "text": "Aperçu de l’application\nVoici les principales fonctionnalités à travers des captures d’écran :\n\n1. Sport\n\n\n\n\n\nPage de suivi des habitudes sportives avec bouton principale permettant d’ajouter une séance, timer affichant le temps depuis la dernière séance et des KPI sur les habitudes sportives de l’année.\n\n\n2. Cigs\n\n\n\n\n\nFormat similaire à la page précedente\n\n\n3. Course\n\n\n\n\n\nPage dédié au suivi des dépenses du foyer: les utilisateurs peuvent rentrer une dépense pour une date donnée, récupérer la dernière dépense ainsi que la supprimer.\nIls peuvent également visualiser rapidement les dépenses communes pour un mois donné et ainsi régulariser leur situation.\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres présentés sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
   },
   {
-    "objectID": "projects/expeditionapp.html",
-    "href": "projects/expeditionapp.html",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "",
-    "text": "Dans le cadre du projet Expédition 5300, une analyse statistique approfondie des données physiologiques et cliniques de participants vivant en haute altitude a été réalisée afin d’étudier les mécanismes associés à la maladie chronique des montagnes (CMS) (Voir projet Analyses ici).\nAfin de faciliter l’exploitation de ces analyses par les équipes de recherche et d’assurer leur pérennité dans le temps, une application Shiny dédiée a été développée en parallèle du travail statistique."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#contexte",
-    "href": "projects/expeditionapp.html#contexte",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "",
-    "text": "Dans le cadre du projet Expédition 5300, une analyse statistique approfondie des données physiologiques et cliniques de participants vivant en haute altitude a été réalisée afin d’étudier les mécanismes associés à la maladie chronique des montagnes (CMS) (Voir projet Analyses ici).\nAfin de faciliter l’exploitation de ces analyses par les équipes de recherche et d’assurer leur pérennité dans le temps, une application Shiny dédiée a été développée en parallèle du travail statistique."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#objectifs-de-lapplication",
-    "href": "projects/expeditionapp.html#objectifs-de-lapplication",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "Objectifs de l’application",
-    "text": "Objectifs de l’application\nL’application ExpeditionApp répond à deux objectifs principaux :\n\nFournir une synthèse interactive des analyses réalisées dans le cadre du projet Expédition 5300, en permettant aux chercheurs d’explorer dynamiquement les résultats liés aux scores de symptômes et aux variables physiologiques.\n\nPermettre la réutilisation et l’actualisation des analyses à partir de bases de données mises à jour, le projet étant toujours en cours.\n\nCette approche vise à garantir un suivi continu des résultats, tout en réduisant la charge liée à la reproduction manuelle des analyses."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#besoins-utilisateurs",
-    "href": "projects/expeditionapp.html#besoins-utilisateurs",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "Besoins utilisateurs",
-    "text": "Besoins utilisateurs\nLes besoins identifiés avec les équipes de recherche étaient les suivants :\n\nMettre à jour facilement le jeu de données avec de nouvelles observations.\n\nDisposer de l’ensemble des analyses réalisées pour l’étude, accessibles depuis une interface unique.\n\nPermettre la reproduction automatique des analyses existantes, ainsi que l’intégration de nouvelles analyses via des actions simples (clics utilisateurs).\n\nOffrir une visualisation claire, rapide et synthétique des données et des résultats statistiques.\n\nGarantir un niveau de sécurité, avec un accès restreint à un groupe d’utilisateurs autorisés via une authentification sécurisée."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#choix-techniques-et-architecture",
-    "href": "projects/expeditionapp.html#choix-techniques-et-architecture",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "Choix techniques et architecture",
-    "text": "Choix techniques et architecture\n\nDéveloppement de l’application avec R Shiny, en s’appuyant sur le framework {golem}.\n\nUtilisation de {golem} afin de garantir :\n\nune architecture modulaire,\nune meilleure maintenabilité du code,\nune sécurité renforcée,\nune application robuste et évolutive.\n\nSéparation claire entre logique métier, visualisation et gestion des données."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#compétences-développées",
-    "href": "projects/expeditionapp.html#compétences-développées",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "Compétences développées",
-    "text": "Compétences développées\n\nDéveloppement d’applications Shiny avancées : conception d’une application interactive orientée recherche, pensée pour être réutilisable et accompagner les chercheurs dans la suite de leurs recherches.\n\nArchitecture robuste avec {golem} : structuration modulaire du code, séparation des responsabilités et amélioration de la maintenabilité et de la sécurité de l’application.\n\nReproductibilité et science des données : intégration des analyses statistiques dans une application permettant leur reproduction automatique à partir de données mises à jour.\n\nData visualisation interactive : création de graphiques dynamiques facilitant l’exploration des résultats et l’interprétation des analyses statistiques.\n\nSécurité et contrôle d’accès : prise en compte des enjeux de confidentialité des données avec une gestion des accès restreinte à un groupe d’utilisateurs autorisés.\n\nCommunication scientifique : transformation d’analyses complexes en outils visuels accessibles à des publics variés (chercheurs, cliniciens, décideurs)."
-  },
-  {
-    "objectID": "projects/expeditionapp.html#aperçu-de-lapplication",
-    "href": "projects/expeditionapp.html#aperçu-de-lapplication",
-    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
-    "section": "Aperçu de l’application",
-    "text": "Aperçu de l’application\nCette section présente les principales interfaces de l’application Shiny développée dans le cadre du stage.\nChaque page correspond à une étape clé du parcours utilisateur, de la découverte des données à leur analyse approfondie.\n\nPage d’accueil\nLa page d’accueil permet de présenter le contexte du projet Expedition 5300 ainsi que les objectifs de l’application.\nUn guide utilisateur est également disponible et téléchargeable pour l’accompagner et le former sur son utilisation.\n\n\n\n\n\n\n\nExploration des données\nCette page permet d’explorer la base de données utilisée pour l’étude.\nLes utilisateurs peuvent visualiser les variables disponibles, vérifier la complétude des données et effectuer une première inspection descriptive.\n\n\n\n\n\n\n\nAnalyses univariées\nCette page est dédiée à l’analyse univariée des variables cliniques et des scores de symptômes.\nLes outils interactifs permettent d’explorer les distributions et de comparer les groupes à l’aide de tests statistiques appropriés.\n\n\n\n\n\n\n\nAnalyses multivariées\nCette page permet de construire et d’explorer des modèles multivariés, notamment des modèles de régression logistique.\nElle offre une visualisation claire des performances des modèles ainsi que des indicateurs de qualité d’ajustement.\n\n\n\n\n\n\n\nTableau de bord\nLe tableau de bord fournit une vue d’ensemble synthétique des données et des résultats principaux.\nIl a pour objectif de faciliter une compréhension rapide des tendances globales et d’aider à la prise de décision.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans cette application ainsi que les résultats chiffrés sont confidentiels.\nLa description se concentre sur les fonctionnalités, les choix techniques et les compétences mobilisées, sans exposer de données sensibles."
+    "objectID": "projects/track_app.html#aperçu-des-tableaux-de-bord",
+    "href": "projects/track_app.html#aperçu-des-tableaux-de-bord",
+    "title": "Suivi et analyse de données santé",
+    "section": "Aperçu des tableaux de bord",
+    "text": "Aperçu des tableaux de bord\n\nQuarto Dashboard\nPage Cigs\n\n\nPage Cinema\n\n\nPage Film Maisons\n\n\nPage Dépenses\n\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données présentées dans ces visuels sont fictives et ont été générées à des fins de démonstration."
   },
   {
     "objectID": "projects/stage-m1.html",
@@ -336,6 +112,286 @@
     "text": "Compétences développées\n\nAnalyse statistique avancée : régression logistique, modèles multivariés, sélection de variables\n\nData visualisation : ggplot2, plotly, interprétation interactive\n\nTraitement et gestion de données : structuration, nettoyage, anonymisation\n\nReproductibilité et science des données : utilisation de Quarto pour rapport et présentation\n\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres exacts sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
   },
   {
+    "objectID": "projects/expeditionapp.html",
+    "href": "projects/expeditionapp.html",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "",
+    "text": "Dans le cadre du projet Expédition 5300, une analyse statistique approfondie des données physiologiques et cliniques de participants vivant en haute altitude a été réalisée afin d’étudier les mécanismes associés à la maladie chronique des montagnes (CMS) (Voir projet Analyses ici).\nAfin de faciliter l’exploitation de ces analyses par les équipes de recherche et d’assurer leur pérennité dans le temps, une application Shiny dédiée a été développée en parallèle du travail statistique."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#contexte",
+    "href": "projects/expeditionapp.html#contexte",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "",
+    "text": "Dans le cadre du projet Expédition 5300, une analyse statistique approfondie des données physiologiques et cliniques de participants vivant en haute altitude a été réalisée afin d’étudier les mécanismes associés à la maladie chronique des montagnes (CMS) (Voir projet Analyses ici).\nAfin de faciliter l’exploitation de ces analyses par les équipes de recherche et d’assurer leur pérennité dans le temps, une application Shiny dédiée a été développée en parallèle du travail statistique."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#objectifs-de-lapplication",
+    "href": "projects/expeditionapp.html#objectifs-de-lapplication",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "Objectifs de l’application",
+    "text": "Objectifs de l’application\nL’application ExpeditionApp répond à deux objectifs principaux :\n\nFournir une synthèse interactive des analyses réalisées dans le cadre du projet Expédition 5300, en permettant aux chercheurs d’explorer dynamiquement les résultats liés aux scores de symptômes et aux variables physiologiques.\n\nPermettre la réutilisation et l’actualisation des analyses à partir de bases de données mises à jour, le projet étant toujours en cours.\n\nCette approche vise à garantir un suivi continu des résultats, tout en réduisant la charge liée à la reproduction manuelle des analyses."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#besoins-utilisateurs",
+    "href": "projects/expeditionapp.html#besoins-utilisateurs",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "Besoins utilisateurs",
+    "text": "Besoins utilisateurs\nLes besoins identifiés avec les équipes de recherche étaient les suivants :\n\nMettre à jour facilement le jeu de données avec de nouvelles observations.\n\nDisposer de l’ensemble des analyses réalisées pour l’étude, accessibles depuis une interface unique.\n\nPermettre la reproduction automatique des analyses existantes, ainsi que l’intégration de nouvelles analyses via des actions simples (clics utilisateurs).\n\nOffrir une visualisation claire, rapide et synthétique des données et des résultats statistiques.\n\nGarantir un niveau de sécurité, avec un accès restreint à un groupe d’utilisateurs autorisés via une authentification sécurisée."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#choix-techniques-et-architecture",
+    "href": "projects/expeditionapp.html#choix-techniques-et-architecture",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "Choix techniques et architecture",
+    "text": "Choix techniques et architecture\n\nDéveloppement de l’application avec R Shiny, en s’appuyant sur le framework {golem}.\n\nUtilisation de {golem} afin de garantir :\n\nune architecture modulaire,\nune meilleure maintenabilité du code,\nune sécurité renforcée,\nune application robuste et évolutive.\n\nSéparation claire entre logique métier, visualisation et gestion des données."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#compétences-développées",
+    "href": "projects/expeditionapp.html#compétences-développées",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "Compétences développées",
+    "text": "Compétences développées\n\nDéveloppement d’applications Shiny avancées : conception d’une application interactive orientée recherche, pensée pour être réutilisable et accompagner les chercheurs dans la suite de leurs recherches.\n\nArchitecture robuste avec {golem} : structuration modulaire du code, séparation des responsabilités et amélioration de la maintenabilité et de la sécurité de l’application.\n\nReproductibilité et science des données : intégration des analyses statistiques dans une application permettant leur reproduction automatique à partir de données mises à jour.\n\nData visualisation interactive : création de graphiques dynamiques facilitant l’exploration des résultats et l’interprétation des analyses statistiques.\n\nSécurité et contrôle d’accès : prise en compte des enjeux de confidentialité des données avec une gestion des accès restreinte à un groupe d’utilisateurs autorisés.\n\nCommunication scientifique : transformation d’analyses complexes en outils visuels accessibles à des publics variés (chercheurs, cliniciens, décideurs)."
+  },
+  {
+    "objectID": "projects/expeditionapp.html#aperçu-de-lapplication",
+    "href": "projects/expeditionapp.html#aperçu-de-lapplication",
+    "title": "ExpeditionApp – Application Shiny pour l’analyse du CMS",
+    "section": "Aperçu de l’application",
+    "text": "Aperçu de l’application\nCette section présente les principales interfaces de l’application Shiny développée dans le cadre du stage.\nChaque page correspond à une étape clé du parcours utilisateur, de la découverte des données à leur analyse approfondie.\n\nPage d’accueil\nLa page d’accueil permet de présenter le contexte du projet Expedition 5300 ainsi que les objectifs de l’application.\nUn guide utilisateur est également disponible et téléchargeable pour l’accompagner et le former sur son utilisation.\n\n\n\n\n\n\n\nExploration des données\nCette page permet d’explorer la base de données utilisée pour l’étude.\nLes utilisateurs peuvent visualiser les variables disponibles, vérifier la complétude des données et effectuer une première inspection descriptive.\n\n\n\n\n\n\n\nAnalyses univariées\nCette page est dédiée à l’analyse univariée des variables cliniques et des scores de symptômes.\nLes outils interactifs permettent d’explorer les distributions et de comparer les groupes à l’aide de tests statistiques appropriés.\n\n\n\n\n\n\n\nAnalyses multivariées\nCette page permet de construire et d’explorer des modèles multivariés, notamment des modèles de régression logistique.\nElle offre une visualisation claire des performances des modèles ainsi que des indicateurs de qualité d’ajustement.\n\n\n\n\n\n\n\nTableau de bord\nLe tableau de bord fournit une vue d’ensemble synthétique des données et des résultats principaux.\nIl a pour objectif de faciliter une compréhension rapide des tendances globales et d’aider à la prise de décision.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans cette application ainsi que les résultats chiffrés sont confidentiels.\nLa description se concentre sur les fonctionnalités, les choix techniques et les compétences mobilisées, sans exposer de données sensibles."
+  },
+  {
+    "objectID": "projects/cyclamed.html",
+    "href": "projects/cyclamed.html",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "",
+    "text": "Cyclamed est l’éco-organisme en charge de la gestion des Médicaments Non Utilisés (MNU) en France.\nDans ce cadre, Cyclamed réalise chaque année une étude de caractérisation des déchets afin d’identifier et de quantifier les composantes spécifiques contenues dans les Déchets Issus des Médicaments (DIM).\nCette étude a permis de définir une méthode d’échantillonnage, qui doit être appliquée et mise à jour chaque année en fonction de l’évolution des sites et des volumes collectés."
+  },
+  {
+    "objectID": "projects/cyclamed.html#contexte",
+    "href": "projects/cyclamed.html#contexte",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "",
+    "text": "Cyclamed est l’éco-organisme en charge de la gestion des Médicaments Non Utilisés (MNU) en France.\nDans ce cadre, Cyclamed réalise chaque année une étude de caractérisation des déchets afin d’identifier et de quantifier les composantes spécifiques contenues dans les Déchets Issus des Médicaments (DIM).\nCette étude a permis de définir une méthode d’échantillonnage, qui doit être appliquée et mise à jour chaque année en fonction de l’évolution des sites et des volumes collectés."
+  },
+  {
+    "objectID": "projects/cyclamed.html#objectifs-du-projet",
+    "href": "projects/cyclamed.html#objectifs-du-projet",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "Objectifs du projet",
+    "text": "Objectifs du projet\nLe projet consistait à développer une application Shiny répondant à plusieurs objectifs opérationnels.\n1. Automatiser la méthode d’échantillonnage\nLe premier objectif était de faciliter la mise en œuvre de la méthode d’échantillonnage définie lors de l’étude de caractérisation, en automatisant son application annuelle. L’outil devait permettre de reproduire la méthodologie de manière fiable, tout en limitant les interventions manuelles et les risques d’erreur.\n2. Visualiser et mettre à jour les données\nLe second objectif était de proposer un jeu de données interactif et visuel, permettant :\n\nd’explorer les données de caractérisation,\nde les modifier annuellement\nde prendre en compte les évolutions du terrain (ajout, suppression ou modification de sites de stockage).\n\nCette fonctionnalité a été mise en œuvre à l’aide du package DT, offrant une manipulation intuitive des données.\n3. Faciliter la prise de décision via un tableau de bord\nEnfin, l’application devait fournir une vue d’ensemble des données à travers un tableau de bord synthétique, afin d’aider les équipes de Cyclamed à :\n\nsuivre la répartition des tonnages de DIM par sites\nanalyser les volumes collectés\nappuyer les décisions liées à la caractérisation annuelle.\n\nLe tableau de bord constitue ainsi un outil phare pour permettre une vision globale des données et l’aide à la décision."
+  },
+  {
+    "objectID": "projects/cyclamed.html#besoins-utilisateurs",
+    "href": "projects/cyclamed.html#besoins-utilisateurs",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "Besoins utilisateurs",
+    "text": "Besoins utilisateurs\nL’application devait répondre aux besoins fonctionnels suivants :\n\nMettre à jour la liste des cinq sites de grossistes-répartiteurs à caractériser.\nRedéfinir les fourchettes de tonnages récupérés par site, pour chaque classe de grossistes-répartiteurs.\nDisposer de la liste des sites par classe.\nRelancer la sélection aléatoire des sites en outre-mer et des sites équipés de compacteurs."
+  },
+  {
+    "objectID": "projects/cyclamed.html#compétences-développées",
+    "href": "projects/cyclamed.html#compétences-développées",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "Compétences développées",
+    "text": "Compétences développées\n\nProgrammation R avancée\nDéveloppement d’une application interactive avec Shiny, structurée à l’aide du framework golem.\nL’utilisation de golem a permis de concevoir une application plus robuste, maintenable et sécurisée, en séparant clairement la logique métier, l’interface utilisateur et les traitements, et en facilitant le portage et les mises à jour annuelles.\nData visualisation avancée\nConception de visualisations statistiques avec ggplot2 et plotly, intégrant des graphiques interactifs et des interactions entre visualisations pour faciliter l’exploration et l’analyse des données.\nDéveloppement web pour applications data\nUtilisation de HTML, SCSS et JavaScript pour améliorer l’ergonomie, l’esthétique et la réactivité de l’application, et proposer une interface utilisateur adaptée à un usage opérationnel."
+  },
+  {
+    "objectID": "projects/cyclamed.html#aperçu-de-lapplication",
+    "href": "projects/cyclamed.html#aperçu-de-lapplication",
+    "title": "Cyclamed – Application Shiny pour optimiser la caractérisation des MNU",
+    "section": "Aperçu de l’application",
+    "text": "Aperçu de l’application\nL’application Shiny développée pour Cyclamed permet de gérer la caractérisation annuelle des déchets issus des médicaments (DIM) de manière interactive et intuitive.\nVoici les principales fonctionnalités à travers des captures d’écran :\n\n1. Accueil\n\n\n\n\n\nPage d’accueil avec navigation principale vers les différentes sections de l’application.\n\n\n2. Sélection des sites\n\n\n\n\n\nSélection interactive des sites à caractériser, avec possibilité de mettre à jour la liste et de relancer la sélection aléatoire. Un historique des séléctions est également disponible.\n\n\n3. Données\n\n\n\n\n\nTableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.\n\n\n4. Résumé des données\n\n\n\n\n\nVue synthétique des informations clés : tonnages, répartition par site et par classe de grossiste-répartiteur.\n\n\n5. Visualisation\n\n\n\n\n\nGraphiques interactifs permettant l’exploration visuelle et l’analyse des tendances et indicateurs clés.\nCette interface interactive permet à Cyclamed de suivre, analyser et prendre des décisions rapidement, tout en automatisant la séléction de sites et en garantissant la fiabilité de la caractérisation annuelle.\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres présentés sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yanis Micha",
+    "section": "",
+    "text": "Diplômé d’un Master Statistique et Science des Données (SSD), je suis statisticien avec un fort intérêt pour l’analyse de données appliquée et le développement d’outils d’aide à la décision.\nJ’utilise principalement R et Python pour explorer, analyser et modéliser les données, ainsi que pour concevoir des applications interactives et des tableaux de bord destinés à des utilisateurs métiers.\nMon objectif est de donner du sens aux données, de les rendre compréhensibles et exploitables, et de transformer des résultats statistiques en informations utiles pour la prise de décision."
+  },
+  {
+    "objectID": "index.html#à-propos-de-moi",
+    "href": "index.html#à-propos-de-moi",
+    "title": "Yanis Micha",
+    "section": "",
+    "text": "Diplômé d’un Master Statistique et Science des Données (SSD), je suis statisticien avec un fort intérêt pour l’analyse de données appliquée et le développement d’outils d’aide à la décision.\nJ’utilise principalement R et Python pour explorer, analyser et modéliser les données, ainsi que pour concevoir des applications interactives et des tableaux de bord destinés à des utilisateurs métiers.\nMon objectif est de donner du sens aux données, de les rendre compréhensibles et exploitables, et de transformer des résultats statistiques en informations utiles pour la prise de décision."
+  },
+  {
+    "objectID": "index.html#ce-que-je-fais",
+    "href": "index.html#ce-que-je-fais",
+    "title": "Yanis Micha",
+    "section": "Ce que je fais",
+    "text": "Ce que je fais\n\nAnalyse et visualisation de données\nExploration, nettoyage et analyse de données, avec la création de visualisations claires et interactives sous R et Python pour faciliter la compréhension des résultats.\nInterrogation et exploitation de bases de données (SQL)\nExtraction, jointure et transformation de données issues de bases relationnelles à l’aide de requêtes SQL, en lien avec des problématiques d’analyse et de reporting.\nReporting reproductible et automatisé\nConception de rapports dynamiques et reproductibles (Quarto, R Markdown), permettant de fiabiliser les analyses.\nDéveloppement d’outils d’aide à la décision\nCréation d’applications interactives (notamment avec Shiny) et de tableaux de bord (Power BI, Quarto) pour rendre les analyses accessibles aux équipes métiers.\nModélisation statistique et analyse exploratoire\nMise en œuvre de méthodes statistiques adaptées aux problématiques métier : analyses descriptives, comparatives et modèles explicatifs.\nStructuration et qualité des données\nMise en place de contrôles de cohérence, gestion des données manquantes et préparation des données pour garantir des analyses fiables.\nCommunication des résultats\nTraduction de résultats statistiques en messages intelligibles, adaptés à des publics techniques ou non techniques."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle \n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
+  },
+  {
+    "objectID": "project.html#projets-académiques-professionnels",
+    "href": "project.html#projets-académiques-professionnels",
+    "title": "Projets",
+    "section": "",
+    "text": "Analyse statistique complète\nRestitution via application Shiny interactive\n\n\n\n\n\n\nOutil d’analyse des processus\nApproche statistique et optimisation\n\n\n\n\n\n\nOptimisation de la caractérisation annuelle \n\n\n\n\n\n\nRécupération de données individuelles\nAnalyse post-annuelle et visualisation"
+  },
+  {
+    "objectID": "projects/dashbike.html",
+    "href": "projects/dashbike.html",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "",
+    "text": "Dashbike est un tableau de bord interactif développé en Python dans le cadre du programme pédagogique de l’Open Data University.\nLe projet s’appuie sur des données publiques et vise à exploiter des données ouvertes à fort enjeu sociétal : les accidents de vélo en France. Les données proviennent de data.gouv.fr et sont issues du Fichier BAAC (Bulletin d’Analyse des Accidents Corporels), administré par l’Observatoire national interministériel de la sécurité routière (ONISR).\nLe jeu de données recense, pour la période 2005–2024, l’ensemble des accidents corporels de la circulation survenus sur une voie ouverte à la circulation publique, impliquant au moins un véhicule,ayant entraîné au moins une victime nécessitant des soins. Dans le cadre de ce projet, seules les observations impliquant au moins une personne à vélo ont été retenues.\nLe tableau de bord est entièrement téléchargeable et modifiable depuis mon dépôt GitHub, dans une logique de transparence, de reproductibilité et de diffusion des analyses."
+  },
+  {
+    "objectID": "projects/dashbike.html#contexte",
+    "href": "projects/dashbike.html#contexte",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "",
+    "text": "Dashbike est un tableau de bord interactif développé en Python dans le cadre du programme pédagogique de l’Open Data University.\nLe projet s’appuie sur des données publiques et vise à exploiter des données ouvertes à fort enjeu sociétal : les accidents de vélo en France. Les données proviennent de data.gouv.fr et sont issues du Fichier BAAC (Bulletin d’Analyse des Accidents Corporels), administré par l’Observatoire national interministériel de la sécurité routière (ONISR).\nLe jeu de données recense, pour la période 2005–2024, l’ensemble des accidents corporels de la circulation survenus sur une voie ouverte à la circulation publique, impliquant au moins un véhicule,ayant entraîné au moins une victime nécessitant des soins. Dans le cadre de ce projet, seules les observations impliquant au moins une personne à vélo ont été retenues.\nLe tableau de bord est entièrement téléchargeable et modifiable depuis mon dépôt GitHub, dans une logique de transparence, de reproductibilité et de diffusion des analyses."
+  },
+  {
+    "objectID": "projects/dashbike.html#objectifs",
+    "href": "projects/dashbike.html#objectifs",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "Objectifs",
+    "text": "Objectifs\nL’objectif principal de Dashbike est double :\n\nSensibilisation : rendre visibles et compréhensibles les dynamiques des accidents de vélo afin de mieux appréhender les risques associés à la pratique du vélo.\nAide à la prise de décision : fournir un outil d’exploration interactif permettant d’identifier des zones à risque, des tendances temporelles ou géographiques, et d’orienter les politiques de prévention et d’aménagement.\n\nLe tableau de bord permet de visualiser les accidents impliquant des cyclistes à différentes échelles :\n\nnationale\nrégionale\ndépartementale"
+  },
+  {
+    "objectID": "projects/dashbike.html#besoins-utilisateurs",
+    "href": "projects/dashbike.html#besoins-utilisateurs",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "Besoins utilisateurs",
+    "text": "Besoins utilisateurs\nCe type de projet s’adresse à plusieurs profils d’utilisateurs :\n\nCollectivités territoriales et décideurs publics : pour identifier les zones accidentogènes et prioriser les actions de sécurité routière.\nUrbanistes et aménageurs : pour appuyer la conception d’infrastructures cyclables plus sûres.\nChercheurs et analystes : pour explorer les données et formuler des hypothèses.\nGrand public et associations : pour mieux comprendre les enjeux de sécurité liés à la pratique du vélo.\n\nLes besoins fonctionnels principaux sont :\n\nune visualisation claire et synthétique des accidents à différentes échelles territoriales\nla possibilité de filtrer et comparer les données dans le temps et dans l’espace\nune interface intuitive permettant une prise en main rapide, sans expertise technique préalable."
+  },
+  {
+    "objectID": "projects/dashbike.html#choix-techniques-et-architecture",
+    "href": "projects/dashbike.html#choix-techniques-et-architecture",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "Choix techniques et architecture",
+    "text": "Choix techniques et architecture\nLe tableau de bord a été développé en Python, avec les technologies suivantes :\n\nDash : framework pour la création d’applications web analytiques interactives.\nPlotly : bibliothèque de visualisation pour des graphiques interactifs et dynamiques.\nPandas / NumPy : manipulation, nettoyage et structuration des données."
+  },
+  {
+    "objectID": "projects/dashbike.html#compétences-développées",
+    "href": "projects/dashbike.html#compétences-développées",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "Compétences développées",
+    "text": "Compétences développées\n\nConception de tableaux de bord interactifs : développement d’un tableau de bord Python (Dash) pensé pour explorer et communiquer des données complexes sur les accidents de vélo.\n\nVisualisation avancée de données : création de graphiques dynamiques à différentes échelles géographiques et temporelles, avec mise en évidence des tendances et patterns structurels.\n\nExploitation et valorisation de données ouvertes (open data) : traitement et analyse de données publiques issues de data.gouv et d’autres sources complémentaires.\n\nPréparation et transformation des données (data engineering) : croisement et enrichissement de jeux de données hétérogènes, intégration de données géographiques (GeoJSON : communes, régions, pistes cyclables) et mise en place d’un pipeline via ETL (Knime).\n\nAnalyse avancée de séries temporelles : exploration des dynamiques temporelles, lissage, décomposition en composantes observée, tendance, saisonnalité et résidus.\n\nStructuration et partage de projets analytiques : organisation du code et des analyses pour une réutilisation et diffusion facile via GitHub.\n\nOrientation utilisateur et impact : conception pensée pour sensibiliser, aider à la prise de décision et communiquer les résultats à des publics variés (décideurs, chercheurs, associations)."
+  },
+  {
+    "objectID": "projects/dashbike.html#aperçu-du-tableau-de-bord",
+    "href": "projects/dashbike.html#aperçu-du-tableau-de-bord",
+    "title": "Dashbike – Tableau de bord interactif sur les accidents de vélo en France",
+    "section": "Aperçu du tableau de bord",
+    "text": "Aperçu du tableau de bord\nLe tableau de bord Dashbike est structuré autour de plusieurs vues complémentaires permettant d’explorer les accidents de vélo sous différents angles : temporel, descriptif et spatial. Chaque page répond à un objectif analytique précis et facilite la compréhension des phénomènes observés.\n\nAnalyse temporelle des accidents\nCette page est dédiée à l’étude des évolutions temporelles des accidents de vélo.\nElle permet d’analyser les tendances de long terme, la saisonnalité et les variations interannuelles, à l’aide de techniques de lissage et de décomposition des séries temporelles.\n\n\n\n\n\n\n\nCaractéristiques des accidents\nCette vue permet d’explorer les principales caractéristiques des accidents :\nprofil des victimes, types de routes, environnement de l’accident, conditions météorologiques, etc.\nElle offre une lecture descriptive essentielle pour identifier les facteurs associés aux accidents.\n\n\n\n\n\n\n\nCartographie des accidents en France\nCette page propose une visualisation spatiale fine des accidents de vélo à l’échelle nationale.\nChaque accident est représenté par un point géolocalisé, permettant d’identifier les zones à forte concentration et les dynamiques territoriales.\n\n\n\n\n\n\n\nSynthèse territoriale par régions et départements\nCette vue agrège les accidents à des niveaux administratifs plus larges (régions et départements).\nElle permet de comparer les territoires à l’aide d’indicateurs synthétiques tels que :\n\nnombre d’accidents\ntaux d’accidents pour 1 000 habitants\nratios entre accidents et infrastructures cyclables\n\n\n\n\n\n\nLien pour accès à une version du tableau de bord ici"
+  },
+  {
+    "objectID": "projects/ML.html",
+    "href": "projects/ML.html",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "",
+    "text": "Ce projet a été réalisé dans le cadre de l’UE Logiciels spécialisés du Master, en binôme, avec pour objectif de mettre oeuvre l’ensemble des étapes d’un projet de science des données, depuis la recherche du jeu de données jusqu’à la réalisation d’une interface interactive intégrant des méthodes d’apprentissage automatique.\nNous avons choisi de travailler sur un jeu de données recensant des expéditions himalayennes, contenant des informations détaillées sur les grimpeurs, les expéditions et leurs issues. Parmi les variables disponibles, la variable success, indiquant le succès ou l’échec d’une expédition, s’est révélée particulièrement pertinente pour aborder des problématiques de prédiction en apprentissage supervisé.\nLe jeu de données, fourni au format CSV, comprend 76 519 individus et 21 variables. Cependant, celui-ci s’est avéré peu exploitable en l’état : données manquantes, incohérences, variables hétérogènes et absence de structuration adaptée à l’analyse statistique et au machine learning. Une part importante du projet a donc consisté en un travail approfondi de nettoyage et de préparation des données.\nCe projet avait également une dimension pédagogique forte : il s’agissait d’une initiation au langage Julia, tout en comparant ses performances et sa prise en main à celles d’outils plus classiques comme Python, dans un contexte de machine learning appliqué."
+  },
+  {
+    "objectID": "projects/ML.html#contexte",
+    "href": "projects/ML.html#contexte",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "",
+    "text": "Ce projet a été réalisé dans le cadre de l’UE Logiciels spécialisés du Master, en binôme, avec pour objectif de mettre oeuvre l’ensemble des étapes d’un projet de science des données, depuis la recherche du jeu de données jusqu’à la réalisation d’une interface interactive intégrant des méthodes d’apprentissage automatique.\nNous avons choisi de travailler sur un jeu de données recensant des expéditions himalayennes, contenant des informations détaillées sur les grimpeurs, les expéditions et leurs issues. Parmi les variables disponibles, la variable success, indiquant le succès ou l’échec d’une expédition, s’est révélée particulièrement pertinente pour aborder des problématiques de prédiction en apprentissage supervisé.\nLe jeu de données, fourni au format CSV, comprend 76 519 individus et 21 variables. Cependant, celui-ci s’est avéré peu exploitable en l’état : données manquantes, incohérences, variables hétérogènes et absence de structuration adaptée à l’analyse statistique et au machine learning. Une part importante du projet a donc consisté en un travail approfondi de nettoyage et de préparation des données.\nCe projet avait également une dimension pédagogique forte : il s’agissait d’une initiation au langage Julia, tout en comparant ses performances et sa prise en main à celles d’outils plus classiques comme Python, dans un contexte de machine learning appliqué."
+  },
+  {
+    "objectID": "projects/ML.html#objectifs",
+    "href": "projects/ML.html#objectifs",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "Objectifs",
+    "text": "Objectifs\nLes objectifs du projet étaient multiples :\n\nRéaliser un travail de recherche exploratoire afin de comprendre le contexte du jeu de données et les problématiques associées aux expéditions himalayennes.\nMettre oeuvre une analyse exploratoire et un traitement approfondi des données, afin de rendre le jeu de données exploitable pour l’analyse statistique et l’apprentissage supervisé.\nMettre en place des modèles d’apprentissage automatique supervisé visant à prédire le succès ou l’échec d’une expédition.\nComparer différentes approches et écosystèmes logiciels, en particulier Python et Julia, pour des tâches de machine learning.\nDécouvrir et manipuler l’interopérabilité entre plusieurs langages au sein d’une même application: ici faire fonctionner du code python et julia au sein d’une interface shiny R.\nConcevoir et développer une interface interactive permettant:\n\n\nl’intégration des visualisations, des analyses et des résultats des modèles.\nla comparaison des différents packages de visualisations au sein du language R (base,ggplot2,plotly)."
+  },
+  {
+    "objectID": "projects/ML.html#méthodologie",
+    "href": "projects/ML.html#méthodologie",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n\nRecherche et compréhension du jeu de données Analyse du contexte des expéditions himalayennes et étude de la signification des variables afin d’évaluer leur pertinence pour l’analyse statistique et la prédiction du succès d’une expédition.\nGestion des données manquantes\n\nSuppression des valeurs manquantes pour les variables secondaires ou peu informatives.\nImputation des valeurs manquantes pour les variables considérées comme primordiales pour la prédiction, afin de conserver un maximum d’individus exploitables.\n\nPrétraitement et harmonisation des données\n\nAgrégation de variables catégorielles.\nTransformation de variables quantitatives.\nCréation de nouvelles variables pertinentes (par exemple : nombre de personnes dans la cordée d’un grimpeur).\nHarmonisation des formats et des typologies de données pour garantir leur cohérence.\n\nAnalyse exploratoire des données (EDA)\n\nTests statistiques et visualisations croisant la variable cible success avec les variables explicatives.\nObjectif : réaliser une première sélection des variables pertinentes en vue de la modélisation prédictive.\n\nFormatage des données pour le machine learning\n\nEncodage des variables catégorielles (One-Hot Encoding).\nNormalisation et mise à l’échelle des variables quantitatives.\nPréparation de jeux de données compatibles avec les modèles supervisés.\n\nModélisation prédictive\n\nUtilisation de modèles volontairement simples afin de faciliter la comparaison entre Julia et Python :\n\nK-Nearest Neighbors (KNN)\nRandom Forest\nSupport Vector Machines (SVM)\n\n\nConception de l’interface interactive\n\nIntégration des modèles d’apprentissage automatique au sein d’une application Shiny.\nObjectif principal : permettre à un utilisateur non initié au machine learning de tester de manière ludique la prédiction du succès ou de l’échec d’une expédition himalayenne en fonction de différentes conditions (profil du grimpeur, caractéristiques de l’expédition, etc.).\n\nVisualisation des données\n\nImplémentation de graphiques et visualisations avec comparaisons de trois packages complémentaires :\n\ngraphiques de base R\nggplot2\nplotly pour des visualisations interactives"
+  },
+  {
+    "objectID": "projects/ML.html#outils-utilisés",
+    "href": "projects/ML.html#outils-utilisés",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "Outils utilisés",
+    "text": "Outils utilisés\n\nJulia\n\nPrétraitement des données (nettoyage, transformation, sélection de variables)\nAnalyse exploratoire des données\nApprentissage automatique avec MLJ\n\nPython\n\nApprentissage automatique avec scikit-learn\nComparaison des performances et des méthodologies avec Julia\n\nR / Shiny\n\nDéveloppement de l’interface interactive\nVisualisation des données et des résultats\nIntégration des traitements et modèles issus de Julia et Python via des packages R dédiés"
+  },
+  {
+    "objectID": "projects/ML.html#compétences-développées",
+    "href": "projects/ML.html#compétences-développées",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "Compétences développées",
+    "text": "Compétences développées\n\nPrétraitement et nettoyage de données complexes : gestion d’un jeu de données volumineux et hétérogène, traitement des valeurs manquantes, harmonisation des formats et création de variables pertinentes pour l’analyse et la prédiction.\nAnalyse exploratoire des données : exploration statistique et graphique des relations entre la variable cible (success) et les variables explicatives afin d’identifier les facteurs les plus influents.\nMachine Learning supervisé : mise en oeuvre et comparaison de modèles prédictifs (KNN, Random Forest, SVM) dans une logique pédagogique et comparative entre plusieurs langages.\nApproche multi-langages en data science : utilisation conjointe de Julia, Python (scikit-learn) et R, et intégration de ces environnements au sein d’un même projet analytique.\nDéveloppement d’applications interactives : conception d’une application Shiny permettant à des utilisateurs non spécialistes de tester des scénarios prédictifs de manière intuitive et ludique.\nVisualisation de données : création de visualisations statiques et interactives avec les packages base R, ggplot2 et plotly, adaptées à l’exploration et permettant un retour critique sur leurs avantages et leurs inconvénients.\nVulgarisation et pédagogie du Machine Learning : transformation de modèles et concepts complexes en outils accessibles, favorisant la compréhension des mécanismes de prédiction auprès d’un public non initié.\nTravail collaboratif et gestion de projet : réalisation d’un projet académique en binôme, depuis la définition de la problématique jusqu’au développement de l’interface et des modèles prédictifs.\n\nVous pouvez retrouver une partie du jeu de données utilisés ici:"
+  },
+  {
+    "objectID": "projects/ML.html#aperçu-de-lapplication",
+    "href": "projects/ML.html#aperçu-de-lapplication",
+    "title": "Analyse prédictive du succès des expeditions himalayennes",
+    "section": "Aperçu de l’application",
+    "text": "Aperçu de l’application\n\n1. Données\n\n\n\n\n\nTableau interactif (package DT) permettant de visualiser, modifier et enrichir les données.\n\n\n2. Résumé des données\n\n\n\n\n\nRésumé statistiques des informations : estimateurs statistiques pour les variables continues, effectif et fréquence pour les variables catégorielles.\n\n\n3. Visualisation\n\n\n\n\n\nGraphiques permettant l’exploration visuelle du jeu de données, mais également de comparer ces derniers en fonction du package de grpahique utilisés\n\n\n4. Prediction\n\n\n\n\n\nInterface interactive de prédiction : l’utilisateur peut saisir ses propres informations et obtenir une estimation de probabilité de succès d’une expédition himalayenne selon les modèles supervisés implémentés."
+  },
+  {
+    "objectID": "projects/stage-m2.html",
+    "href": "projects/stage-m2.html",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "",
+    "text": "Mon stage s’est déroulé chez Soitec, entreprise de semi-conducteurs située à Bernin, proche de Grenoble, plus précisément au sein du service Contrôle de Production de la fabrique B3.\nLa fabrique Bernin 3 est une ancienne ligne de R&D convertie en ligne de production à fort volume, spécialisée dans le produit POI de Soitec.\nDepuis deux ans, la demande pour ce produit a fortement augmenté (+60%), nécessitant une extension de l’usine et des recrutements massifs (+360 personnes).\nCette croissance rapide pose un double enjeu stratégique pour l’entreprise :\n\nProduire à grande échelle pour répondre à la demande tout en maintenant la qualité et les délais,\n\nContinuer à innover et améliorer les procédés de fabrication, afin de rester compétitive et pérenniser la ligne POI.\n\nLe rôle du CDP (Continuous Development & Production) est crucial dans ce contexte : il doit garantir la fluidité de la production, la réactivité face aux perturbations et la conformité aux exigences qualité.\nLa maîtrise du temps de cycle est un levier stratégique majeur pour :\n\ntenir les délais de livraison\nréduire les en-cours (WIP) et optimiser la capacité machine\nfaciliter la planification et rendre la production plus prévisible"
+  },
+  {
+    "objectID": "projects/stage-m2.html#contexte",
+    "href": "projects/stage-m2.html#contexte",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "",
+    "text": "Mon stage s’est déroulé chez Soitec, entreprise de semi-conducteurs située à Bernin, proche de Grenoble, plus précisément au sein du service Contrôle de Production de la fabrique B3.\nLa fabrique Bernin 3 est une ancienne ligne de R&D convertie en ligne de production à fort volume, spécialisée dans le produit POI de Soitec.\nDepuis deux ans, la demande pour ce produit a fortement augmenté (+60%), nécessitant une extension de l’usine et des recrutements massifs (+360 personnes).\nCette croissance rapide pose un double enjeu stratégique pour l’entreprise :\n\nProduire à grande échelle pour répondre à la demande tout en maintenant la qualité et les délais,\n\nContinuer à innover et améliorer les procédés de fabrication, afin de rester compétitive et pérenniser la ligne POI.\n\nLe rôle du CDP (Continuous Development & Production) est crucial dans ce contexte : il doit garantir la fluidité de la production, la réactivité face aux perturbations et la conformité aux exigences qualité.\nLa maîtrise du temps de cycle est un levier stratégique majeur pour :\n\ntenir les délais de livraison\nréduire les en-cours (WIP) et optimiser la capacité machine\nfaciliter la planification et rendre la production plus prévisible"
+  },
+  {
+    "objectID": "projects/stage-m2.html#objectifs",
+    "href": "projects/stage-m2.html#objectifs",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "Objectifs",
+    "text": "Objectifs\nLe projet de stage visait à améliorer la visibilité et le pilotage des temps de cycle au sein du service CDP. Les objectifs principaux étaient :\n\nAnalyse critique des travaux existants :\n\nÉvaluer les outils et méthodes précédemment utilisés pour identifier les limites et points d’amélioration.\n\nComparer les approches « par lot » vs « par plaque ».\n\nDéfinition et formalisation des temps de cycle :\n\nProposer une définition claire et partagée adaptée au contexte de B3.\n\nDévelopper des estimateurs pertinents pour mesurer ces temps de cycle.\n\nAnalyse et optimisation des temps de cycle :\n\nCréer un outil dédié permettant au CDP de suivre les temps de cycle en temps réel.\n\nFournir des indicateurs clairs et actionnables pour aider à la prise de décision.\n\nMise en place d’analyses reproductibles :\n\nSuivi dynamique des lignes principales et des étapes critiques (goulots, détracteurs).\n\nAnalyse historique pour comprendre les variations et dysfonctionnements passés.\n\nAnalyse en continu pour détecter et corriger les anomalies en temps réel.\n\nFormation du service CDP :\n\nPrésenter l’outil, sa logique et ses fonctionnalités.\n\nExpliquer les formules et indicateurs utilisés de manière interprétable et actionnable.\n\nMontrer des cas pratiques et recueillir les retours utilisateurs pour ajuster l’outil."
+  },
+  {
+    "objectID": "projects/stage-m2.html#méthodologie",
+    "href": "projects/stage-m2.html#méthodologie",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n\nDémarche générale : approche statistique structurée autour de deux axes complémentaires et deux types d’analyses pour répondre aux besoins de compréhension globale et aux exigences de réactivité du terrain.\nAxes d’analyse :\n\nVision macroscopique : aperçu global des temps de cycle par flow de production, calcul des indicateurs (moyenne, médiane, 90%) et suivi des tendances dans le temps pour identifier les dérives majeures.\n\nVision microscopique : analyse par étapes de production pour suivre les temps d’attente, comprendre leurs causes et identifier les détracteurs critiques.\n\nTypes d’analyses :\n\nÉtat des lieux : statistiques descriptives sur les données historiques pour comprendre les comportements passés et définir des valeurs cibles.\n\nPilotage opérationnel : indicateurs dynamiques permettant d’alerter rapidement en cas de dérive et de suivre l’efficacité des actions correctives.\n\nOutils utilisés :\n\nInitialement R, mais des restrictions de sécurité ont imposé l’usage de JMP.\n\nJMP permet une expérience utilisateur intuitive, des graphiques et tables interactives, et un scripting via JSL (JMP Scripting Language).\n\nSources et préparation des données :\n\nBases Yield, mises à jour deux fois par jour et vision à la plaque adaptée à l’analyse.\n\nCertains paramètres non accessibles ont été reconstruits ou omis si nécessaire.\n\nTechniques statistiques :\n\nTraitement et modélisation des données pour caractériser les temps de cycle. - Réalisation de simulations Monte Carlo sous R pour comparer différents estimateurs (moyenne, médiane, moyenne tronquée, moyenne Winsorisée) et justifier le choix de l’indicateur le plus robuste pour le suivi des temps de cycle.\nStatistiques descriptives et analytiques adaptées aux objectifs.\n\nVisualisation des données pour identifier anomalies et dérives.\n\nModélisation statistique : modèles linéaires et arbres de décision pour identifier les paramètres influençant le temps de cycle.\n\nLimites méthodologiques :\n\nBiais potentiels liés aux données pouvant affecter les analyses.\n\nDifficulté d’accès à certaines données et outils limitant la profondeur des analyses."
+  },
+  {
+    "objectID": "projects/stage-m2.html#résultats",
+    "href": "projects/stage-m2.html#résultats",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "Résultats",
+    "text": "Résultats\n\nOutil JMP intégré au CDP :\n\nCréation d’une interface interactive et centralisée via le journal JMP, permettant de lier et piloter différents scripts depuis un seul point d’entrée (boutons, menus).\n\nInterface intuitive pour les utilisateurs non experts, facilitant le lancement des analyses sans manipulation directe des scripts ou des données.\n\nTransmission efficace des analyses au sein du service, garantissant reproductibilité et autonomie des utilisateurs.\n\nDéploiement et formation :\n\nPrésentations et démonstrations auprès des équipes, points réguliers avec le directeur et responsable process.\n\nGuides utilisateur et développeur : documentation de l’architecture, des scripts et des méthodes pour faciliter la maintenance et les mises à jour futures.\n\nVersion bêta testée par plusieurs membres du service pour recueillir les retours sur l’ergonomie, les fonctionnalités et identifier d’éventuels bugs.\n\nAnalyses temps de cycle :\n\nAnalyses récurrentes pour suivi hebdomadaire, à l’échelle globale et par étape.\n\nAnalyses de surveillance et de contrôle de production, incluant comparaison top/base.\n\nParticipation à des missions annexes, notamment la mise en place du projet INFICON au sein de Soitec."
+  },
+  {
+    "objectID": "projects/stage-m2.html#compétences-développées",
+    "href": "projects/stage-m2.html#compétences-développées",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "Compétences développées",
+    "text": "Compétences développées\n\nAnalyse et modélisation des temps de cycle : conception d’indicateurs pertinents et reproductibles pour le suivi de production.\n\nStatistiques descriptives et analytiques : traitement, visualisation et interprétation des données à l’échelle macroscopique et microscopique.\n\nDéveloppement d’outils interactifs avec JMP : création d’interfaces utilisateurs centralisées et intuitives pour la diffusion des analyses.\n\nGestion de projet et documentation : élaboration de guides utilisateur et développeur pour assurer la maintenance et la continuité de l’outil.\n\nFormation et communication : présentation des analyses et outils aux équipes, clarification des indicateurs et accompagnement dans l’utilisation quotidienne.\n\nRésolution de problèmes opérationnels : adaptation à des contraintes techniques et sécuritaires tout en maintenant la pertinence et la fiabilité des analyses."
+  },
+  {
+    "objectID": "projects/stage-m2.html#aperçu-de-loutil",
+    "href": "projects/stage-m2.html#aperçu-de-loutil",
+    "title": "Soitec - Analyse et optimisation des temps de cycle",
+    "section": "Aperçu de l’outil",
+    "text": "Aperçu de l’outil\n\nArchitecture côté utilisateur\n\n\n\nArchitecture utilisateur\n\n\nSchéma présentant la répartition des fonctionnalités pour l’utilisateur final :\n- By comp_id : analyses globales des temps de cycle.\n- By step : analyses des temps de cycle par étapes de production.\n- TOP/BASE : analyses dédiées au pilotage des deux lignes principales pour coordination des lancements.\n- Trimmed mean : analyses basées sur la moyenne tronquée pour un indicateur robuste.\n- Bloc vert : fonctionnalités de gestion et mise à jour des jeux de données, accès aux guides utilisateur.\n\n\nArchitecture côté développeur\n\n\n\nArchitecture développeur\n\n\nVue des scripts, données et dépendances côté développement, montrant comment l’outil est structuré pour assurer son bon fonctionnement et sa maintenance.\n\n\n\n\n\n\nNote\n\n\n\nNote de confidentialité\nLes données utilisées dans le cadre de ce projet ainsi que les chiffres exacts sont confidentiels.\nLa description se concentre volontairement sur les méthodes, les outils et les compétences mobilisées, plutôt que sur les résultats chiffrés."
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Résumé",
@@ -347,7 +403,7 @@
     "href": "resume.html#résumé-professionnel",
     "title": "Résumé",
     "section": "Résumé professionnel",
-    "text": "Résumé professionnel\nProfessionnel analytique et orienté résultats, diplômé d’un Master Statistique et Science des Données (SSD), expert en analyse de données, visualisation et développement d’outils interactifs.\nMaîtrise des langages R et Python, ainsi que des outils pour la construction d’applications Shiny et de dashboards.\nAptitude à transformer les données brutes en informations exploitables, à automatiser des processus et à communiquer les résultats efficacement auprès de différents interlocuteurs."
+    "text": "Résumé professionnel\nProfessionnel analytique, je suis diplômé d’un Master Statistique et Science des Données (SSD), expert en analyse de données, visualisation et développement d’outils interactifs.\nMaîtrise des langages R et Python, ainsi que des outils pour la construction d’applications Shiny et de dashboards.\nAptitude à transformer les données brutes en informations exploitables, à automatiser des processus et à communiquer les résultats efficacement auprès de différents interlocuteurs."
   },
   {
     "objectID": "resume.html#compétences-techniques",
